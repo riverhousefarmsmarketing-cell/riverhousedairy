@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #2D4A2D;
+  --color-forest-50: #F0F4F0;
+  --color-forest-100: #D9E5D9;
+  --color-forest-200: #B3CBB3;
+  --color-forest-300: #8DB18D;
+  --color-forest-400: #5D7E5D;
+  --color-forest-500: #2D4A2D;
+  --color-forest-600: #243C24;
+  --color-forest-700: #1B2E1B;
+  --color-forest-800: #122012;
+  --color-forest-900: #091209;
+
+  --color-plum: #6B2D5B;
+  --color-plum-50: #F5EDF3;
+  --color-plum-100: #E6D0E0;
+  --color-plum-200: #CDA1C1;
+  --color-plum-300: #B472A2;
+  --color-plum-400: #904380;
+  --color-plum-500: #6B2D5B;
+  --color-plum-600: #562449;
+  --color-plum-700: #411B37;
+  --color-plum-800: #2C1225;
+  --color-plum-900: #170913;
+
+  --color-burgundy: #722F37;
+  --color-burgundy-50: #F5EEEF;
+  --color-burgundy-100: #E6D2D5;
+  --color-burgundy-200: #CDA5AB;
+  --color-burgundy-300: #B47881;
+  --color-burgundy-400: #934B55;
+  --color-burgundy-500: #722F37;
+  --color-burgundy-600: #5C262C;
+  --color-burgundy-700: #461D21;
+  --color-burgundy-800: #301416;
+  --color-burgundy-900: #1A0B0B;
+
+  --color-cream: #FAF7F2;
+  --color-cream-50: #FEFDFB;
+  --color-cream-100: #FAF7F2;
+  --color-cream-200: #F2EBE0;
+  --color-cream-300: #E8DCCC;
+  --color-cream-400: #DECDBA;
+  --color-cream-500: #D4BEA8;
+}
+
+/* ── Base ── */
+:root {
+  --font-inter: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-merriweather: Georgia, Cambria, "Times New Roman", serif;
+}
+
+body {
+  @apply bg-cream text-forest antialiased;
+  font-family: var(--font-inter);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* ── Focus ring — accessible and brand-colored ── */
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-plum;
+}
+
+/* ── Selection ── */
+::selection {
+  @apply bg-plum-100 text-forest;
+}
+
+/* ── Smooth scroll ── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Scrollbar (subtle plum accent) ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #CDA1C1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6B2D5B;
+}
