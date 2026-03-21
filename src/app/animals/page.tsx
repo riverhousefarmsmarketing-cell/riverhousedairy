@@ -28,7 +28,7 @@ const breeds = [
     slug: "lamancha",
     role: "High-volume milk · Gentle temperament",
     tagline: "The earless dairy goat. Consistently calm, consistently producing.",
-    image: "/images/farm/goat-browsing-cedar.png",
+    image: "/images/farm/lamancha-barn-1.jpeg",
     alt: "LaMancha goat at RiverHouse Dairy",
     stats: [
       { label: "Butterfat", value: "3.9–4.5%" },

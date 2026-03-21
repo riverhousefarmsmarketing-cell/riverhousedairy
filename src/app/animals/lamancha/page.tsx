@@ -25,7 +25,20 @@ export default function Page() {
       </section>
       <div className="mx-auto max-w-4xl px-8 sm:px-12 py-16 space-y-16">
         <section>
-          <div className="relative aspect-[21/9] rounded-2xl overflow-hidden mb-10"><Image src="/images/farm/goat-browsing-cedar.png" alt="LaMancha goat at RiverHouse Dairy" fill className="object-cover" sizes="100vw" /></div>
+          {/* Photo gallery — real LaMancha photos from RiverHouse Dairy */}
+        <div className="grid grid-cols-2 gap-3 mb-4">
+          <div className="relative aspect-[3/4] rounded-xl overflow-hidden">
+            <Image src="/images/farm/lamancha-barn-1.jpeg" alt="LaMancha doe in the barn at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
+          </div>
+          <div className="flex flex-col gap-3">
+            <div className="relative flex-1 rounded-xl overflow-hidden" style={{minHeight: "200px"}}>
+              <Image src="/images/farm/lamancha-fence.jpeg" alt="LaMancha goat at the fence at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
+            </div>
+            <div className="relative flex-1 rounded-xl overflow-hidden" style={{minHeight: "200px"}}>
+              <Image src="/images/farm/lamancha-barn-2.jpeg" alt="LaMancha doe up close at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
+            </div>
+          </div>
+        </div>
           <h2 className="text-2xl font-bold text-forest">At RiverHouse Dairy</h2>
           <p className="mt-4 text-lg text-forest-600 leading-relaxed">Our LaManchas are the gentle giants of the goat barn. They're bigger than our Nigerian Dwarfs, producing more milk volume but with slightly lower butterfat. Their temperament is genuinely distinctive — calm, inquisitive, and easy to work with on the milk stand. In a mixed-breed herd, LaManchas tend to establish themselves as mid-tier herd leaders without the drama.</p>
         </section>
