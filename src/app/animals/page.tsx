@@ -56,8 +56,8 @@ const breeds = [
     slug: "mini-nubian",
     role: "High butterfat · Dual-purpose potential",
     tagline: "Nubian richness in a compact, manageable frame.",
-    image: "/images/farm/kids-mossy-tree.jpeg",
-    alt: "Goat kids at RiverHouse Dairy",
+    image: "/images/farm/mini-nubian-herd.jpeg",
+    alt: "Mini Nubian herd at RiverHouse Dairy",
     stats: [
       { label: "Butterfat", value: "5–8%" },
       { label: "Size", value: "23–29 in" },

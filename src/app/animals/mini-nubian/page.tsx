@@ -17,7 +17,21 @@ export default function Page() {
     </div></section>
     <div className="mx-auto max-w-4xl px-8 sm:px-12 py-16 space-y-16">
       <section>
-        <div className="relative aspect-[21/9] rounded-2xl overflow-hidden mb-10"><Image src="/images/farm/kids-mossy-tree.jpeg" alt="Goat kids at RiverHouse Dairy" fill className="object-cover" sizes="100vw" /></div>
+        {/* Photo gallery — real Mini Nubian photos from RiverHouse Dairy */}
+        <div className="relative aspect-[16/9] rounded-2xl overflow-hidden mb-4">
+          <Image src="/images/farm/mini-nubian-herd.jpeg" alt="Mini Nubian herd at RiverHouse Dairy" fill className="object-cover" sizes="100vw" />
+        </div>
+        <div className="grid grid-cols-3 gap-3 mb-10">
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/mini-nubian-peek-1.jpeg" alt="Mini Nubian peeking around post at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/mini-nubian-peek-2.jpeg" alt="Mini Nubian peeking around post at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/mini-nubian-peek-3.jpeg" alt="Mini Nubian peeking around post at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+          </div>
+        </div>
         <h2 className="text-2xl font-bold text-forest">At RiverHouse Dairy</h2>
         <p className="mt-4 text-lg text-forest-600 leading-relaxed">Mini Nubians bring a distinctive personality to our herd — vocal, curious, opinionated, and genuinely endearing. The Nubian bloodline adds the richest butterfat of the full-size dairy goats, and the Nigerian Dwarf cross brings it down to a manageable size. Our Mini Nubians are among the most people-focused animals on the farm.</p>
       </section>
