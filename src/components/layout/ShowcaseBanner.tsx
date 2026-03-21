@@ -1,7 +1,5 @@
 "use client";
 import { useState } from "react";
-import Link from "next/link";
-
 export function ShowcaseBanner() {
   const [dismissed, setDismissed] = useState(false);
   if (dismissed) return null;
@@ -15,7 +13,7 @@ export function ShowcaseBanner() {
             We&apos;re at the{" "}
             <strong className="text-white">Lewis County Farm Bureau Showcase</strong>
             {" "}today — come find us, or{" "}
-            <Link href="/contact" className="underline underline-offset-2 hover:text-plum-200 transition-colors">
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfmqguPYi7oULqkHjJo6mFdAPg6E7L3YHkF6tVyaizRa6SMMQ/viewform" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-plum-200 transition-colors">
               join the raw milk waitlist
             </Link>
           </span>

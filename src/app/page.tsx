@@ -45,12 +45,14 @@ export default function HomePage() {
 
               {/* CTAs */}
               <div className="mt-10 flex flex-wrap gap-4">
-                <Link
-                  href="/contact"
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfmqguPYi7oULqkHjJo6mFdAPg6E7L3YHkF6tVyaizRa6SMMQ/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="rounded-lg bg-plum px-8 py-4 text-base font-bold text-white hover:bg-plum-600 transition-colors shadow-lg"
                 >
                   Join the Raw Milk List
-                </Link>
+                </a>
                 <Link
                   href="/contact"
                   className="rounded-lg bg-white/10 backdrop-blur-sm border border-white/25 px-8 py-4 text-base font-bold text-white hover:bg-white/20 transition-colors"
@@ -225,12 +227,14 @@ export default function HomePage() {
                 licensing is complete.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
-                <Link
-                  href="/contact"
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfmqguPYi7oULqkHjJo6mFdAPg6E7L3YHkF6tVyaizRa6SMMQ/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="rounded-lg bg-plum px-8 py-4 text-base font-bold text-white hover:bg-plum-600 transition-colors shadow-sm"
                 >
                   Join the Raw Milk List
-                </Link>
+                </a>
                 <Link
                   href="/contact"
                   className="rounded-lg border-2 border-forest-200 px-8 py-4 text-base font-bold text-forest hover:border-plum hover:text-plum transition-colors"

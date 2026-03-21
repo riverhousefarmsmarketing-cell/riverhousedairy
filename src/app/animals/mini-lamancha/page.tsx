@@ -17,7 +17,7 @@ export default function Page() {
     </div></section>
     <div className="mx-auto max-w-4xl px-8 sm:px-12 py-16 space-y-16">
       <section>
-        <div className="relative aspect-[21/9] rounded-2xl overflow-hidden mb-10"><Image src="/images/farm/goat-herd-path.png" alt="Mini-LaMancha goats at RiverHouse Dairy" fill className="object-cover" sizes="100vw" /></div>
+        <div className="relative aspect-[21/9] rounded-2xl overflow-hidden mb-10"><Image src="/images/farm/lgd-kids-pasture.png" alt="Mini-LaMancha goats at RiverHouse Dairy" fill className="object-cover" sizes="100vw" /></div>
         <h2 className="text-2xl font-bold text-forest">At RiverHouse Dairy</h2>
         <p className="mt-4 text-lg text-forest-600 leading-relaxed">Mini-LaManchas give us the best of both worlds in our herd: the calm, consistent production of the LaMancha crossed with the elevated butterfat and compact size of the Nigerian Dwarf. They're easier to handle than full-size does, eat less, and take up less space — while producing milk that lands between their two parent breeds in both volume and richness.</p>
       </section>
