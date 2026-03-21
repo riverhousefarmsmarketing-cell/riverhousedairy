@@ -46,9 +46,46 @@ function BreedPage() {
 
       <div className="mx-auto max-w-4xl px-8 sm:px-12 py-16 space-y-16">
         <section>
-          <div className="relative aspect-[21/9] rounded-2xl overflow-hidden mb-10">
-            <Image src="/images/farm/goat-herd-path.png" alt="Nigerian Dwarf goats at RiverHouse Dairy" fill className="object-cover" sizes="100vw" />
+          {/* Hero: herd coming down the path — shows the whole operation */}
+        <div className="relative aspect-[4/3] rounded-2xl overflow-hidden mb-4">
+          <Image src="/images/farm/nd-herd-path.jpeg" alt="Nigerian Dwarf herd at RiverHouse Dairy" fill className="object-cover" sizes="100vw" />
+        </div>
+        {/* Row 2: action browsing shots */}
+        <div className="grid grid-cols-2 gap-3 mb-4">
+          <div className="relative aspect-[3/4] rounded-xl overflow-hidden">
+            <Image src="/images/farm/nd-rearing-tree.png" alt="Nigerian Dwarf goat rearing up to browse tree at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
           </div>
+          <div className="relative aspect-[3/4] rounded-xl overflow-hidden">
+            <Image src="/images/farm/nd-browsing-bush.jpeg" alt="Nigerian Dwarf goat browsing at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
+          </div>
+        </div>
+        {/* Row 3: kids — the color variety is the story */}
+        <div className="grid grid-cols-4 gap-3 mb-4">
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/nd-kid-brown.jpeg" alt="Nigerian Dwarf kid at RiverHouse Dairy" fill className="object-cover" sizes="25vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/nd-kid-spotted-straw.jpeg" alt="Nigerian Dwarf spotted kid at RiverHouse Dairy" fill className="object-cover" sizes="25vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/nd-kid-pinto.jpeg" alt="Nigerian Dwarf pinto kid at RiverHouse Dairy" fill className="object-cover" sizes="25vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/nd-kid-black-pumpkin.jpeg" alt="Nigerian Dwarf black kid at RiverHouse Dairy" fill className="object-cover" sizes="25vw" />
+          </div>
+        </div>
+        {/* Row 4: details and character */}
+        <div className="grid grid-cols-3 gap-3 mb-10">
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/nd-kid-brick-wall.jpeg" alt="Nigerian Dwarf kid by brick wall at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/nd-dandelion.jpeg" alt="Nigerian Dwarf goat grazing dandelions at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/nd-fence-nose.jpeg" alt="Nigerian Dwarf goats at the fence at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+          </div>
+        </div>
           <h2 className="text-2xl font-bold text-forest">At RiverHouse Dairy</h2>
           <p className="mt-4 text-lg text-forest-600 leading-relaxed">
             Our Nigerian Dwarf does are the backbone of our dairy operation. We started with Relequen and Gwendolyn in Spring 2022 — two kids that couldn&apos;t produce milk yet. Within weeks we were back buying their dam, then five more goats. The herd grew fast because Nigerian Dwarfs are simply exceptional dairy animals for a small operation: manageable size, high butterfat, year-round breeding, and genuine personality.

@@ -44,8 +44,8 @@ export default function AboutPage() {
           <div className="flex flex-col sm:flex-row items-center gap-10">
             <div className="w-48 h-48 shrink-0 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/images/farm/christine-with-jersey.jpeg"
-                alt="Christine with a Jersey cow at RiverHouse Dairy"
+                src="/images/farm/christine-kids-barn.jpeg"
+                alt="Christine with Nigerian Dwarf kids at RiverHouse Dairy"
                 width={192}
                 height={192}
                 className="object-cover object-top w-full h-full"

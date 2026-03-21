@@ -14,8 +14,8 @@ const breeds = [
     slug: "nigerian-dwarf",
     role: "Primary milk production · Year-round",
     tagline: "Compact, prolific, and richest butterfat of any dairy goat breed.",
-    image: "/images/farm/goat-herd-path.png",
-    alt: "Nigerian Dwarf goats at RiverHouse Dairy",
+    image: "/images/farm/nd-herd-path.jpeg",
+    alt: "Nigerian Dwarf goat herd at RiverHouse Dairy",
     stats: [
       { label: "Butterfat", value: "6–10%" },
       { label: "Milk/day", value: "1–2 qts" },
