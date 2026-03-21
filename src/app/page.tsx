@@ -7,6 +7,26 @@ export default function HomePage() {
   return (
     <>
       {/* ════════════════════════════════════════════
+          SHOWCASE BANNER — March 21, 2026
+          ════════════════════════════════════════════ */}
+      <div className="bg-plum text-white">
+        <div className="mx-auto max-w-7xl px-4 py-3 flex flex-col sm:flex-row items-center justify-center gap-2 text-center sm:text-left">
+          <span className="text-plum-200 text-sm font-bold uppercase tracking-widest hidden sm:inline">★</span>
+          <p className="text-sm font-bold">
+            We&apos;re at the Lewis County Farm Bureau Showcase today —{" "}
+            <span className="text-plum-200">March 21, 2026.</span>
+          </p>
+          <span className="hidden sm:inline text-plum-300 text-sm">·</span>
+          <Link
+            href="/contact"
+            className="text-sm font-bold text-white underline underline-offset-2 hover:text-plum-200 transition-colors whitespace-nowrap"
+          >
+            Join the raw milk waitlist →
+          </Link>
+        </div>
+      </div>
+
+      {/* ════════════════════════════════════════════
           1. HERO — What you produce + where + CTA
           ════════════════════════════════════════════ */}
       <section className="relative h-[85vh] min-h-[600px]">

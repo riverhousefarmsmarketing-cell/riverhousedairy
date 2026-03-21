@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Header, Footer } from "@/components/layout";
+import { Header, Footer, ShowcaseBanner } from "@/components/layout";
 import { brand } from "@/lib/tokens";
 import "./globals.css";
 
@@ -27,6 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="flex min-h-screen flex-col">
+        <ShowcaseBanner />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
