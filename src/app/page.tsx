@@ -61,7 +61,7 @@ export default function HomePage() {
           </h2>
           <div className="grid gap-10 md:grid-cols-2">
             {/* Goat Milk */}
-            <div className="rounded-xl overflow-hidden bg-cream">
+            <div className="rounded-xl overflow-hidden bg-white border border-gray-100">
               <div className="relative aspect-[3/2] overflow-hidden">
                 <Image
                   src="/images/farm/goat-herd-path.png"
@@ -76,20 +76,20 @@ export default function HomePage() {
                   Year-Round Production
                 </span>
                 <h3 className="text-2xl font-bold text-forest mt-2">Raw Goat Milk</h3>
-                <p className="mt-3 text-base text-forest-400 leading-relaxed">
+                <p className="mt-3 text-base text-forest-600 leading-relaxed">
                   Nigerian Dwarf, LaMancha, Mini-LaMancha, and Mini Nubian does.
                   Nigerian Dwarf milk averages 6–10% butterfat — the richest of any
                   goat breed. Naturally homogenized. Ideal for drinking, cheese, yogurt,
                   and soap.
                 </p>
-                <p className="mt-3 text-base text-forest-400 leading-relaxed">
+                <p className="mt-3 text-base text-forest-600 leading-relaxed">
                   Farm pickup · Retail · Bulk supply available
                 </p>
               </div>
             </div>
 
             {/* Sheep Milk */}
-            <div className="rounded-xl overflow-hidden bg-cream">
+            <div className="rounded-xl overflow-hidden bg-white border border-gray-100">
               <div className="relative aspect-[3/2] overflow-hidden">
                 <Image
                   src="/images/farm/icelandic-rams.png"
@@ -104,12 +104,12 @@ export default function HomePage() {
                   Seasonal · Limited Quantity
                 </span>
                 <h3 className="text-2xl font-bold text-forest mt-2">Raw Sheep Milk</h3>
-                <p className="mt-3 text-base text-forest-400 leading-relaxed">
+                <p className="mt-3 text-base text-forest-600 leading-relaxed">
                   Icelandic, Lacaune-cross, and East Friesian lines. We are developing
                   Lacaune and East Friesian genetics for high-butterfat sheep milk
                   suitable for artisan cheese and yogurt.
                 </p>
-                <p className="mt-3 text-base text-forest-400 leading-relaxed">
+                <p className="mt-3 text-base text-forest-600 leading-relaxed">
                   Premium pricing · Seasonal availability · Ideal for cheesemakers
                 </p>
               </div>
@@ -121,7 +121,7 @@ export default function HomePage() {
       {/* ════════════════════════════════════════════
           3. RAW MILK STANDARDS
           ════════════════════════════════════════════ */}
-      <section className="bg-cream">
+      <section className="bg-gray-50">
         <div className="mx-auto max-w-3xl px-6 py-20">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-plum text-center">
             How We Operate
@@ -140,7 +140,7 @@ export default function HomePage() {
             ].map((standard) => (
               <div key={standard.title} className="bg-white rounded-xl p-5">
                 <h3 className="text-base font-bold text-forest">{standard.title}</h3>
-                <p className="mt-2 text-sm text-forest-400 leading-relaxed">{standard.text}</p>
+                <p className="mt-2 text-sm text-forest-600 leading-relaxed">{standard.text}</p>
               </div>
             ))}
           </div>
@@ -227,7 +227,7 @@ export default function HomePage() {
                   {step.label}
                 </span>
                 <h3 className="text-lg font-bold text-forest mt-1">{step.title}</h3>
-                <p className="mt-2 text-base text-forest-400 leading-relaxed">{step.text}</p>
+                <p className="mt-2 text-base text-forest-600 leading-relaxed">{step.text}</p>
               </div>
             ))}
           </div>
@@ -237,7 +237,7 @@ export default function HomePage() {
       {/* ════════════════════════════════════════════
           6. WHAT WE RAISE — Breeds overview
           ════════════════════════════════════════════ */}
-      <section className="bg-cream">
+      <section className="bg-gray-50">
         <div className="mx-auto max-w-5xl px-6 py-20">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-plum text-center">
             Our Animals
@@ -287,7 +287,7 @@ export default function HomePage() {
                   <h3 className="text-lg font-bold text-forest group-hover:text-plum transition-colors">
                     {breed.name}
                   </h3>
-                  <p className="mt-1 text-sm text-forest-400">{breed.detail}</p>
+                  <p className="mt-1 text-sm text-forest-600">{breed.detail}</p>
                   <p className="mt-2 text-sm text-plum font-medium">{breed.role}</p>
                 </div>
               </Link>
@@ -318,7 +318,7 @@ export default function HomePage() {
               <h2 className="text-3xl font-bold text-forest mt-3">
                 From Two Goats to a Working Dairy
               </h2>
-              <p className="mt-4 text-base text-forest-400 leading-relaxed">
+              <p className="mt-4 text-base text-forest-600 leading-relaxed">
                 We bought this property in 2020 and started with two Nigerian Dwarf kids
                 in 2022. Today we manage 80+ animals across eight breeds — goats, sheep,
                 and cattle — all selected for milk quality and herd health. We joined the
@@ -342,7 +342,7 @@ export default function HomePage() {
       {/* ════════════════════════════════════════════
           8. GOAT HEALTH — Authority / SEO / funnel
           ════════════════════════════════════════════ */}
-      <section className="bg-cream">
+      <section className="bg-gray-50">
         <div className="mx-auto max-w-5xl px-6 py-20">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-plum text-center">
             Free Resource
@@ -350,7 +350,7 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-forest text-center mt-3">
             Goat Health Reference
           </h2>
-          <p className="mt-4 text-base text-forest-400 text-center max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-4 text-base text-forest-600 text-center max-w-2xl mx-auto leading-relaxed">
             Health conditions, medications, myths debunked, FAMACHA scoring, and care
             guides — from the barn at RiverHouse Dairy.
           </p>
@@ -389,7 +389,7 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-forest text-center mt-3">
             Our Tools
           </h2>
-          <p className="mt-4 text-base text-forest-400 text-center max-w-xl mx-auto leading-relaxed">
+          <p className="mt-4 text-base text-forest-600 text-center max-w-xl mx-auto leading-relaxed">
             We built GoatSteward because small goat dairies lacked proper herd
             management tools. We use it daily to track animal health, breeding,
             and milk records.
@@ -400,12 +400,12 @@ export default function HomePage() {
                 <Link
                   key={product.name}
                   href={product.route}
-                  className="group block rounded-xl bg-cream p-5 hover:shadow-md transition-shadow"
+                  className="group block rounded-xl bg-gray-50 border border-gray-100 p-5 hover:shadow-md transition-shadow"
                 >
                   <h3 className="text-base font-bold text-forest group-hover:text-plum transition-colors">
                     {product.name}
                   </h3>
-                  <p className="mt-2 text-sm text-forest-400 leading-relaxed">
+                  <p className="mt-2 text-sm text-forest-600 leading-relaxed">
                     {product.description}
                   </p>
                   {product.domain && (

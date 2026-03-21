@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function PartnersPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-section-sm">
-      <nav className="mb-6 text-sm text-forest-400">
+      <nav className="mb-6 text-sm text-forest-600">
         <Link href="/" className="hover:text-plum transition-colors">Home</Link>
         <span className="mx-1.5">›</span>
         <span className="text-forest">Partners</span>
@@ -18,7 +18,7 @@ export default function PartnersPage() {
 
       <header className="mb-10">
         <h1 className="text-h1 text-forest font-bold">Our Partners</h1>
-        <p className="mt-3 text-body-lg text-forest-400 max-w-2xl">
+        <p className="mt-3 text-body-lg text-forest-600 max-w-2xl">
           Products and services I personally use and believe in.
         </p>
       </header>

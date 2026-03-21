@@ -19,7 +19,7 @@ export default function HealthHubPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-section-sm">
       {/* Breadcrumb */}
-      <nav className="mb-6 text-sm text-forest-400">
+      <nav className="mb-6 text-sm text-forest-600">
         <Link href="/" className="hover:text-plum transition-colors">Home</Link>
         <span className="mx-1.5">›</span>
         <span className="text-forest">Goat Health</span>
@@ -28,7 +28,7 @@ export default function HealthHubPage() {
       {/* Header */}
       <header className="mb-10">
         <h1 className="text-h1 text-forest font-bold">Goat Health Reference</h1>
-        <p className="mt-3 text-body-lg text-forest-400 max-w-2xl">
+        <p className="mt-3 text-body-lg text-forest-600 max-w-2xl">
           Health conditions, treatments, and medication reference — from the barn at RiverHouse Dairy.
         </p>
       </header>
@@ -67,7 +67,7 @@ export default function HealthHubPage() {
             <h2 className="text-h3 text-forest group-hover:text-plum transition-colors">
               {tab.label}
             </h2>
-            <p className="mt-2 text-sm text-forest-400">{tab.description}</p>
+            <p className="mt-2 text-sm text-forest-600">{tab.description}</p>
           </Link>
         ))}
       </div>
@@ -84,7 +84,7 @@ export default function HealthHubPage() {
       </div>
 
       {/* Medical Disclaimer */}
-      <div className="mt-10 rounded-brand bg-cream-200 p-5 text-xs text-forest-400 leading-relaxed">
+      <div className="mt-10 rounded-brand bg-gray-50-200 p-5 text-xs text-forest-600 leading-relaxed">
         <p className="font-semibold text-forest mb-1">Medical Disclaimer</p>
         <p>
           This information is for educational purposes only and should not replace professional

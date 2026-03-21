@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function CharactersPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-section-sm">
-      <nav className="mb-6 text-sm text-forest-400">
+      <nav className="mb-6 text-sm text-forest-600">
         <Link href="/" className="hover:text-plum transition-colors">Home</Link>
         <span className="mx-1.5">›</span>
         <span className="text-forest">Characters</span>
@@ -18,7 +18,7 @@ export default function CharactersPage() {
 
       <header className="mb-10">
         <h1 className="text-h1 text-forest font-bold">Meet the RiverHouse Dairy Crew</h1>
-        <p className="mt-3 text-body-lg text-forest-400 max-w-2xl">
+        <p className="mt-3 text-body-lg text-forest-600 max-w-2xl">
           Each character is based on a real RiverHouse Dairy animal. {brand.hashtag}
         </p>
       </header>
@@ -34,7 +34,7 @@ export default function CharactersPage() {
             </div>
             <h2 className="text-h3 text-forest">{char.name}</h2>
             <p className="text-xs text-plum font-medium mt-1">{char.breed}</p>
-            <p className="text-sm text-forest-400 mt-2">{char.personality}</p>
+            <p className="text-sm text-forest-600 mt-2">{char.personality}</p>
           </div>
         ))}
       </div>

@@ -53,7 +53,7 @@ export default function AboutPage() {
             </div>
             <div>
               <h2 className="text-2xl font-bold text-forest">Hi, I&apos;m Christine.</h2>
-              <p className="mt-4 text-lg text-forest-400 leading-relaxed">
+              <p className="mt-4 text-lg text-forest-600 leading-relaxed">
                 I&apos;m a dairy farmer, a Lewis County Farm Bureau board member, and
                 the developer behind GoatSteward. I bought this farm in 2020 with
                 no farming background — I came from the gaming industry. Everything
@@ -68,7 +68,7 @@ export default function AboutPage() {
       </section>
 
       {/* ─── The Beginning ─── */}
-      <section className="bg-cream">
+      <section className="bg-gray-50">
         <div className="mx-auto max-w-3xl px-6 py-20">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-plum">
             How It Started
@@ -76,7 +76,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-forest mt-3">
             Two Baby Goats and a Desire for Fresh Milk
           </h2>
-          <div className="mt-8 space-y-6 text-lg text-forest-400 leading-relaxed">
+          <div className="mt-8 space-y-6 text-lg text-forest-600 leading-relaxed">
             <p>
               In spring of 2022 we brought home Relequen and Gwendolyn — two Nigerian
               Dwarf kids. They were adorable, but they weren&apos;t producing milk. We
@@ -117,7 +117,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-forest mt-3">
             Adding Sheep, Cattle, and Purpose
           </h2>
-          <div className="mt-8 space-y-6 text-lg text-forest-400 leading-relaxed">
+          <div className="mt-8 space-y-6 text-lg text-forest-600 leading-relaxed">
             <p>
               <strong className="text-forest">Summer 2023 — Sheep.</strong> I was
               looking for a milk breed with high butterfat. I ran into Icelandic sheep
@@ -163,7 +163,7 @@ export default function AboutPage() {
       </section>
 
       {/* ─── Farm Bureau ─── */}
-      <section className="bg-cream">
+      <section className="bg-gray-50">
         <div className="mx-auto max-w-3xl px-6 py-20">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-plum">
             Community
@@ -171,7 +171,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-forest mt-3">
             Finding My People Through Farm Bureau
           </h2>
-          <div className="mt-8 space-y-6 text-lg text-forest-400 leading-relaxed">
+          <div className="mt-8 space-y-6 text-lg text-forest-600 leading-relaxed">
             <p>
               I&apos;ve lived in Lewis County for 20 years. I was born in Washington
               state, but way up north. When we started farming, I had no network. No
@@ -223,7 +223,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-forest mt-3">
             Software Built by a Steward, for Stewards
           </h2>
-          <div className="mt-8 space-y-6 text-lg text-forest-400 leading-relaxed">
+          <div className="mt-8 space-y-6 text-lg text-forest-600 leading-relaxed">
             <p>
               I built <strong className="text-forest">GoatSteward</strong> because
               nothing existed for goat farmers. The herd management tools out there
@@ -322,7 +322,7 @@ export default function AboutPage() {
             ].map((stat) => (
               <div key={stat.label}>
                 <p className="text-3xl font-bold text-plum">{stat.value}</p>
-                <p className="text-sm text-forest-400 mt-1 font-medium">{stat.label}</p>
+                <p className="text-sm text-forest-600 mt-1 font-medium">{stat.label}</p>
               </div>
             ))}
           </div>
@@ -330,10 +330,10 @@ export default function AboutPage() {
       </section>
 
       {/* ─── CTA ─── */}
-      <section className="bg-cream border-t border-gray-100">
+      <section className="bg-gray-50 border-t border-gray-100">
         <div className="mx-auto max-w-3xl px-6 py-16 text-center">
           <h2 className="text-2xl font-bold text-forest">Want to Connect?</h2>
-          <p className="mt-3 text-lg text-forest-400">
+          <p className="mt-3 text-lg text-forest-600">
             Whether you&apos;re a fellow farmer, a Farm Bureau member, or just curious
             about dairy goats — I&apos;d love to hear from you.
           </p>

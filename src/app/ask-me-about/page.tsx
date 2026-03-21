@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function AskMeAboutPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-section-sm">
-      <nav className="mb-6 text-sm text-forest-400">
+      <nav className="mb-6 text-sm text-forest-600">
         <Link href="/" className="hover:text-plum transition-colors">
           Home
         </Link>
@@ -22,7 +22,7 @@ export default function AskMeAboutPage() {
 
       <header className="mb-10">
         <h1 className="text-h1 text-forest font-bold">Ask Me About</h1>
-        <p className="mt-3 text-body-lg text-forest-400 max-w-2xl">
+        <p className="mt-3 text-body-lg text-forest-600 max-w-2xl">
           Programs, benefits, and opportunities I personally use, participate in, or advocate for
           through the Lewis County Farm Bureau and RiverHouse Dairy.
         </p>

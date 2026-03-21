@@ -32,7 +32,7 @@ function NavLink({ item, onClick }: { item: NavItem; onClick?: () => void }) {
                 <Link
                   key={child.href}
                   href={child.href}
-                  className="block px-4 py-2 text-sm text-forest hover:bg-cream hover:text-plum transition-colors"
+                  className="block px-4 py-2 text-sm text-forest hover:bg-gray-50 hover:text-plum transition-colors"
                 >
                   {child.label}
                 </Link>
@@ -100,7 +100,7 @@ export function Header() {
   const closeMobile = () => setMobileOpen(false);
 
   return (
-    <header className="sticky top-0 z-40 bg-cream/95 backdrop-blur-sm border-b border-forest-100">
+    <header className="sticky top-0 z-40 bg-gray-50/95 backdrop-blur-sm border-b border-forest-100">
       {/* Farm Bureau badge banner — above the fold */}
       <div className="bg-forest-50 border-b border-forest-100">
         <div className="mx-auto max-w-7xl px-4 py-1.5 flex justify-center">
@@ -147,7 +147,7 @@ export function Header() {
 
       {/* Mobile nav panel */}
       {mobileOpen && (
-        <nav className="lg:hidden border-t border-forest-100 bg-cream" aria-label="Mobile navigation">
+        <nav className="lg:hidden border-t border-forest-100 bg-gray-50" aria-label="Mobile navigation">
           <div className="py-2">
             {primaryNav.map((item) => (
               <NavLink key={item.href} item={item} onClick={closeMobile} />
