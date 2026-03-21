@@ -124,7 +124,7 @@ export default function CommunityPage() {
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-plum">Why It&apos;s Worth It</p>
           <h2 className="text-3xl font-bold text-forest mt-3">What Farm Bureau Membership Gets You</h2>
           <p className="mt-4 text-lg text-forest-600 leading-relaxed">
-            Lewis County Farm Bureau membership is $65/year. Here&apos;s what I actually use it for:
+            Lewis County Farm Bureau membership is $125/year. Here&apos;s what I actually use it for:
           </p>
           <div className="mt-8 space-y-4">
             {[
