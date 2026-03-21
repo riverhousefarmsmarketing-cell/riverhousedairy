@@ -46,7 +46,7 @@ export default function HomePage() {
               {/* CTAs */}
               <div className="mt-10 flex flex-wrap gap-4">
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfmqguPYi7oULqkHjJo6mFdAPg6E7L3YHkF6tVyaizRa6SMMQ/viewform"
+                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__Yb9ijhURTRQSFRaREM2VDJWQTE0N0hESjZRNEJSTy4u&origin=QRCode"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-lg bg-plum px-8 py-4 text-base font-bold text-white hover:bg-plum-600 transition-colors shadow-lg"
@@ -228,7 +228,7 @@ export default function HomePage() {
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfmqguPYi7oULqkHjJo6mFdAPg6E7L3YHkF6tVyaizRa6SMMQ/viewform"
+                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__Yb9ijhURTRQSFRaREM2VDJWQTE0N0hESjZRNEJSTy4u&origin=QRCode"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-lg bg-plum px-8 py-4 text-base font-bold text-white hover:bg-plum-600 transition-colors shadow-sm"

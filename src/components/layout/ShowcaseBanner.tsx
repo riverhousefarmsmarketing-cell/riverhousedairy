@@ -13,7 +13,7 @@ export function ShowcaseBanner() {
             We&apos;re at the{" "}
             <strong className="text-white">Lewis County Farm Bureau Showcase</strong>
             {" "}today — come find us, or{" "}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmqguPYi7oULqkHjJo6mFdAPg6E7L3YHkF6tVyaizRa6SMMQ/viewform" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-plum-200 transition-colors">
+            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__Yb9ijhURTRQSFRaREM2VDJWQTE0N0hESjZRNEJSTy4u&origin=QRCode" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-plum-200 transition-colors">
               join the raw milk waitlist
             </a>
           </span>
