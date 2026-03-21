@@ -17,7 +17,26 @@ export default function Page() {
     </div></section>
     <div className="mx-auto max-w-4xl px-8 sm:px-12 py-16 space-y-16">
       <section>
-        <div className="relative aspect-[21/9] rounded-2xl overflow-hidden mb-10"><Image src="/images/farm/sheep-flock-field.png" alt="Icelandic sheep at RiverHouse Dairy" fill className="object-cover" sizes="100vw" /></div>
+        {/* Photo gallery — real Icelandic sheep photos from RiverHouse Dairy */}
+        {/* Hero: ram in the rain — shows the breed's hardy PNW character */}
+        <div className="relative aspect-[4/3] rounded-2xl overflow-hidden mb-4">
+          <Image src="/images/farm/icelandic-ram-pasture.jpeg" alt="Icelandic ram in Lewis County pasture at RiverHouse Dairy" fill className="object-cover" sizes="100vw" />
+        </div>
+        {/* Grid: lambing season shots */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-10">
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/icelandic-lamb-black.jpeg" alt="Black Icelandic lamb in barn straw at RiverHouse Dairy" fill className="object-cover" sizes="25vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/icelandic-ewe-lamb-2.jpeg" alt="Icelandic ewe with white lamb at RiverHouse Dairy" fill className="object-cover" sizes="25vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/icelandic-ram-lamb.jpeg" alt="Icelandic ram with newborn lamb at RiverHouse Dairy" fill className="object-cover" sizes="25vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/icelandic-ewe-lamb.jpeg" alt="Icelandic ewe with newborn lamb at RiverHouse Dairy" fill className="object-cover" sizes="25vw" />
+          </div>
+        </div>
         <h2 className="text-2xl font-bold text-forest">At RiverHouse Dairy</h2>
         <p className="mt-4 text-lg text-forest-600 leading-relaxed">Our Icelandic flock was our introduction to sheep. After building the goat herd, we wanted a dairy sheep with genuine hardiness for the wet PNW climate and meaningful milk production. Icelandics checked both boxes — plus fleece. They handle Lewis County winters better than most breeds, forage well, and don&apos;t require the intensive management some specialty dairy sheep demand.</p>
         <p className="mt-4 text-lg text-forest-600 leading-relaxed">The Icelandics anchor our flock while we build Lacaune genetics. Their milk contributes to our seasonal sheep milk production, and their fleece is genuinely beautiful — fine, long-staple, and prized by hand spinners.</p>

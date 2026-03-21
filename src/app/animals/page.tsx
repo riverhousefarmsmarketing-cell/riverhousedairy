@@ -70,7 +70,7 @@ const breeds = [
     slug: "icelandic",
     role: "Heritage breed · Milk, wool, and meat",
     tagline: "1,100 years of Nordic selection. Hardy, triple-purpose, and truly self-sufficient.",
-    image: "/images/farm/sheep-flock-field.png",
+    image: "/images/farm/icelandic-ram-pasture.jpeg",
     alt: "Icelandic sheep at RiverHouse Dairy",
     stats: [
       { label: "Butterfat", value: "6–8%" },
