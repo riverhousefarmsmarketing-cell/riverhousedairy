@@ -112,8 +112,8 @@ const breeds = [
     slug: "zebu",
     role: "A2/A2 · Heat tolerant · Ancient genetics",
     tagline: "One of humanity's oldest domesticated cattle. Hardy, heat-adapted, and genetically distinct.",
-    image: "/images/farm/jersey-with-sheep.jpeg",
-    alt: "Cattle at RiverHouse Dairy",
+    image: "/images/farm/zebu-cow-twin-calves.jpeg",
+    alt: "Zebu cow with twin calves at RiverHouse Dairy",
     stats: [
       { label: "Hump", value: "Bos indicus" },
       { label: "Origin", value: "South Asia" },

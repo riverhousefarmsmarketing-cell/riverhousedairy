@@ -17,7 +17,32 @@ export default function Page() {
     </div></section>
     <div className="mx-auto max-w-4xl px-8 sm:px-12 py-16 space-y-16">
       <section>
-        <div className="relative aspect-[21/9] rounded-2xl overflow-hidden mb-10"><Image src="/images/farm/jersey-with-sheep.jpeg" alt="Cattle at RiverHouse Dairy" fill className="object-cover" sizes="100vw" /></div>
+        {/* Photo gallery — Zebu cattle at RiverHouse Dairy */}
+        {/* Hero: cow with twin calves in barn — shows the A2/A2 breeding program */}
+        <div className="relative aspect-[4/3] rounded-2xl overflow-hidden mb-4">
+          <Image src="/images/farm/zebu-cow-twin-calves.jpeg" alt="Zebu cow with twin calves at RiverHouse Dairy" fill className="object-cover" sizes="100vw" />
+        </div>
+        {/* Row 2: newborn moments */}
+        <div className="grid grid-cols-2 gap-3 mb-4">
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/zebu-newborn-standing.jpeg" alt="Zebu newborn calf standing at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/zebu-cow-newborn-barn.jpeg" alt="Zebu cow with newborn calf at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
+          </div>
+        </div>
+        {/* Row 3: calf portraits against mossy tree */}
+        <div className="grid grid-cols-3 gap-3 mb-10">
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/zebu-calf-mossy-1.jpeg" alt="Zebu calf at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/zebu-calf-mossy-2.jpeg" alt="Zebu calf portrait at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/zebu-cow-nursing-coop.jpeg" alt="Zebu cow nursing calf at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+          </div>
+        </div>
         <h2 className="text-2xl font-bold text-forest">At RiverHouse Dairy</h2>
         <p className="mt-4 text-lg text-forest-600 leading-relaxed">Our Zebu are part of the A2/A2 cattle component of our herd — selected for the same beta-casein genetics that drove our Jersey acquisition. Zebu carry A2/A2 genetics naturally as a species characteristic of <em>Bos indicus</em> cattle, which diverged from European cattle (<em>Bos taurus</em>) thousands of years ago and were never subject to the A1 mutation that became prevalent in modern commercial breeds.</p>
         <p className="mt-4 text-lg text-forest-600 leading-relaxed">They are distinctive animals — smaller than most cattle breeds people are familiar with, heat-tolerant, and genuinely ancient in their genetics. Having both Jersey and Zebu gives our cattle genetics program breadth across the A2 landscape.</p>
