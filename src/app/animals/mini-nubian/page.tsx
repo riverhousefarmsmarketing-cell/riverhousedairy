@@ -18,18 +18,34 @@ export default function Page() {
     <div className="mx-auto max-w-4xl px-8 sm:px-12 py-16 space-y-16">
       <section>
         {/* Photo gallery — real Mini Nubian photos from RiverHouse Dairy */}
-        <div className="relative aspect-[16/9] rounded-2xl overflow-hidden mb-4">
-          <Image src="/images/farm/mini-nubian-herd.jpeg" alt="Mini Nubian herd at RiverHouse Dairy" fill className="object-cover" sizes="100vw" />
+        {/* Hero: doe with kid resting — shows the pendant ears clearly */}
+        <div className="grid grid-cols-2 gap-3 mb-4">
+          <div className="relative aspect-[3/4] rounded-xl overflow-hidden">
+            <Image src="/images/farm/mini-nubian-standing.jpeg" alt="Mini Nubian kid at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
+          </div>
+          <div className="relative aspect-[3/4] rounded-xl overflow-hidden">
+            <Image src="/images/farm/mini-nubian-doe-kid.jpeg" alt="Mini Nubian doe and kid at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
+          </div>
         </div>
+        {/* Row 2: nursing + newborn — dairy purpose */}
+        <div className="grid grid-cols-2 gap-3 mb-4">
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/mini-nubian-nursing.jpeg" alt="Mini Nubian kid nursing at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/mini-nubian-newborn.jpeg" alt="Mini Nubian newborn kid at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
+          </div>
+        </div>
+        {/* Row 3: close-up ear/face portraits — shows the Nubian ear distinctly */}
         <div className="grid grid-cols-3 gap-3 mb-10">
           <div className="relative aspect-square rounded-xl overflow-hidden">
-            <Image src="/images/farm/mini-nubian-peek-1.jpeg" alt="Mini Nubian peeking around post at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+            <Image src="/images/farm/mini-nubian-chew-1.jpeg" alt="Mini Nubian kid portrait at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
           </div>
           <div className="relative aspect-square rounded-xl overflow-hidden">
-            <Image src="/images/farm/mini-nubian-peek-2.jpeg" alt="Mini Nubian peeking around post at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+            <Image src="/images/farm/mini-nubian-chew-2.jpeg" alt="Mini Nubian kid portrait at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
           </div>
           <div className="relative aspect-square rounded-xl overflow-hidden">
-            <Image src="/images/farm/mini-nubian-peek-3.jpeg" alt="Mini Nubian peeking around post at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+            <Image src="/images/farm/mini-nubian-chew-3.jpeg" alt="Mini Nubian kid portrait at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
           </div>
         </div>
         <h2 className="text-2xl font-bold text-forest">At RiverHouse Dairy</h2>
