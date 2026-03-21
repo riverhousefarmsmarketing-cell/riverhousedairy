@@ -43,22 +43,16 @@ export default function HomePage() {
                 licensing in progress — sales open Summer 2026.
               </p>
 
-              {/* CTAs */}
-              <div className="mt-10 flex flex-wrap gap-4">
+              {/* CTA */}
+              <div className="mt-10">
                 <a
-                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__Yb9ijhURTRQSFRaREM2VDJWQTE0N0hESjZRNEJSTy4u&origin=QRCode"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfmqguPYi7oULqkHjJo6mFdAPg6E7L3YHkF6tVyaizRa6SMMQ/viewform"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-lg bg-plum px-8 py-4 text-base font-bold text-white hover:bg-plum-600 transition-colors shadow-lg"
+                  className="inline-block rounded-lg bg-plum px-8 py-4 text-base font-bold text-white hover:bg-plum-600 transition-colors shadow-lg"
                 >
-                  Join the Raw Milk List
+                  Join the Raw Milk Waitlist
                 </a>
-                <Link
-                  href="/contact"
-                  className="rounded-lg bg-white/10 backdrop-blur-sm border border-white/25 px-8 py-4 text-base font-bold text-white hover:bg-white/20 transition-colors"
-                >
-                  Wholesale &amp; Creamery Inquiries
-                </Link>
               </div>
 
               {/* Farm Bureau badge — quiet, below CTAs */}
@@ -226,21 +220,15 @@ export default function HomePage() {
                 creameries. Get on the list now — we&apos;ll notify you when
                 licensing is complete.
               </p>
-              <div className="mt-8 flex flex-wrap gap-4">
+              <div className="mt-8">
                 <a
-                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__Yb9ijhURTRQSFRaREM2VDJWQTE0N0hESjZRNEJSTy4u&origin=QRCode"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfmqguPYi7oULqkHjJo6mFdAPg6E7L3YHkF6tVyaizRa6SMMQ/viewform"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-lg bg-plum px-8 py-4 text-base font-bold text-white hover:bg-plum-600 transition-colors shadow-sm"
+                  className="inline-block rounded-lg bg-plum px-8 py-4 text-base font-bold text-white hover:bg-plum-600 transition-colors shadow-sm"
                 >
-                  Join the Raw Milk List
+                  Join the Raw Milk Waitlist
                 </a>
-                <Link
-                  href="/contact"
-                  className="rounded-lg border-2 border-forest-200 px-8 py-4 text-base font-bold text-forest hover:border-plum hover:text-plum transition-colors"
-                >
-                  Wholesale Inquiries
-                </Link>
               </div>
             </div>
 
