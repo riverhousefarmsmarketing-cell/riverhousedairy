@@ -84,8 +84,8 @@ const breeds = [
     slug: "lacaune",
     role: "Premier dairy sheep · Roquefort genetics",
     tagline: "The breed behind Roquefort cheese. We drove 1,157 miles to start our breeding program.",
-    image: "/images/farm/sheep-pasture.png",
-    alt: "Sheep flock at RiverHouse Dairy",
+    image: "/images/farm/lacaune-ewe-twins.jpeg",
+    alt: "Lacaune-cross ewe with twin lambs at RiverHouse Dairy",
     stats: [
       { label: "Milk/yr", value: "200–300 L" },
       { label: "Butterfat", value: "7–8%" },

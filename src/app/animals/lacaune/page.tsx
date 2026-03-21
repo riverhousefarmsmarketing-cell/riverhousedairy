@@ -17,7 +17,32 @@ export default function Page() {
     </div></section>
     <div className="mx-auto max-w-4xl px-8 sm:px-12 py-16 space-y-16">
       <section>
-        <div className="relative aspect-[21/9] rounded-2xl overflow-hidden mb-10"><Image src="/images/farm/sheep-pasture.png" alt="Sheep flock at RiverHouse Dairy" fill className="object-cover" sizes="100vw" /></div>
+        {/* Photo gallery — Lacaune-cross ewes and lambs at RiverHouse Dairy */}
+        {/* Hero: ewe with twin lambs — establishes the breeding program visually */}
+        <div className="relative aspect-[4/3] rounded-2xl overflow-hidden mb-4">
+          <Image src="/images/farm/lacaune-ewe-twins.jpeg" alt="Lacaune-cross ewe with twin lambs at RiverHouse Dairy" fill className="object-cover" sizes="100vw" />
+        </div>
+        {/* Second row: the birth moment + nursing shot — tells the whole story */}
+        <div className="grid grid-cols-2 gap-3 mb-4">
+          <div className="relative aspect-[3/4] rounded-xl overflow-hidden">
+            <Image src="/images/farm/lacaune-birth.jpeg" alt="Lacaune-cross ewe with newborn lamb at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
+          </div>
+          <div className="relative aspect-[3/4] rounded-xl overflow-hidden">
+            <Image src="/images/farm/lacaune-nursing.jpeg" alt="Lacaune-cross lamb nursing at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
+          </div>
+        </div>
+        {/* Third row: twins and sleeping lamb */}
+        <div className="grid grid-cols-3 gap-3 mb-10">
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/lacaune-twins-straw.jpeg" alt="Lacaune-cross twin lambs in straw at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/lacaune-newborn-pair.jpeg" alt="Lacaune-cross newborn lambs at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/lacaune-ewe-sleeping.jpeg" alt="Lacaune-cross ewe with sleeping lamb at RiverHouse Dairy" fill className="object-cover" sizes="33vw" />
+          </div>
+        </div>
         <h2 className="text-2xl font-bold text-forest">The 1,157-Mile Trip</h2>
         <p className="mt-4 text-lg text-forest-600 leading-relaxed">In 2025, Christine drove from Chehalis, Washington to South Dakota — 1,157 miles one way — to bring home four Lacaune-influenced ewes. Pure Lacaune genetics barely exist in the Pacific Northwest. This was the only way to get started.</p>
         <p className="mt-4 text-lg text-forest-600 leading-relaxed">In Spring 2026, 10 pure Lacaune semen straws are arriving from two different French rams — sourced specifically to maximize genetic diversity in our emerging PNW Lacaune program. We are building something that doesn&apos;t exist here yet: a Lacaune foundation herd in the Pacific Northwest, bred for the high-butterfat sheep milk that makes exceptional artisan cheese and yogurt.</p>
