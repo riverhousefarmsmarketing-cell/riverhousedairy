@@ -17,7 +17,20 @@ export default function Page() {
     </div></section>
     <div className="mx-auto max-w-4xl px-8 sm:px-12 py-16 space-y-16">
       <section>
-        <div className="relative aspect-[21/9] rounded-2xl overflow-hidden mb-10"><Image src="/images/farm/jerseys-pasture.jpeg" alt="Jersey cows at RiverHouse Dairy" fill className="object-cover" sizes="100vw" /></div>
+        {/* Photo gallery — Jersey cows at RiverHouse Dairy */}
+        {/* Hero: cow rearing up to browse with two calves watching — shows the whole family */}
+        <div className="relative aspect-[3/4] sm:aspect-[4/3] rounded-2xl overflow-hidden mb-4">
+          <Image src="/images/farm/jersey-browse-calves.jpeg" alt="Jersey cow browsing with calves at RiverHouse Dairy" fill className="object-cover" sizes="100vw" />
+        </div>
+        {/* Row 2: portrait + with-flock shots */}
+        <div className="grid grid-cols-2 gap-3 mb-10">
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/jersey-portrait.jpeg" alt="Jersey cow portrait at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
+          </div>
+          <div className="relative aspect-square rounded-xl overflow-hidden">
+            <Image src="/images/farm/jersey-with-flock.jpeg" alt="Jersey cow with Icelandic sheep flock at RiverHouse Dairy" fill className="object-cover" sizes="50vw" />
+          </div>
+        </div>
         <h2 className="text-2xl font-bold text-forest">Why We Added Jerseys</h2>
         <p className="mt-4 text-lg text-forest-600 leading-relaxed">Christine&apos;s niece has low-functioning autism and cannot tolerate conventional dairy. A2/A2 cow milk changed that. We added A2/A2 Jersey cows and Zebu specifically for their beta-casein genetics — a protein variant that many people with conventional dairy sensitivities can consume without issue.</p>
         <p className="mt-4 text-lg text-forest-600 leading-relaxed">The other reason: cream. Goat and sheep milk is naturally homogenized — the fat doesn&apos;t separate. Cow milk separates readily, giving us heavy cream. That cream is what makes our ice cream genuinely creamy, our butter possible, and our aged cheeses richer. The Jerseys are the missing ingredient for the full range of dairy products we&apos;re building toward.</p>

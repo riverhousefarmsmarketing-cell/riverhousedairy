@@ -98,8 +98,8 @@ const breeds = [
     slug: "jersey",
     role: "A2/A2 genetics · Heavy cream",
     tagline: "The world's most efficient dairy cow. Our A2/A2 Jerseys produce cream that transforms our dairy products.",
-    image: "/images/farm/jerseys-pasture.jpeg",
-    alt: "Jersey cows at RiverHouse Dairy",
+    image: "/images/farm/jersey-with-flock.jpeg",
+    alt: "Jersey cow with sheep flock at RiverHouse Dairy",
     stats: [
       { label: "Butterfat", value: "4.5–5.5%" },
       { label: "Protein", value: "3.8–4.0%" },
