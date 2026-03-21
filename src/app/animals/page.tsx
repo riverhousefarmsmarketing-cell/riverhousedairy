@@ -42,8 +42,8 @@ const breeds = [
     slug: "mini-lamancha",
     role: "Compact version · High butterfat for size",
     tagline: "LaMancha quality in a smaller, easier-to-manage package.",
-    image: "/images/farm/lgd-kids-pasture.png",
-    alt: "Goats at RiverHouse Dairy",
+    image: "/images/farm/mini-lamancha-5.jpeg",
+    alt: "Mini-LaMancha goats at RiverHouse Dairy",
     stats: [
       { label: "Butterfat", value: "4.5–5.5%" },
       { label: "Size", value: "25–29 in" },
