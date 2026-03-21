@@ -227,12 +227,12 @@ function BreedCard({ breed }: { breed: typeof breeds[0] }) {
       href={`/animals/${breed.slug}`}
       className="group block rounded-2xl overflow-hidden border border-gray-100 bg-white hover:shadow-lg transition-all hover:-translate-y-0.5"
     >
-      <div className="relative aspect-[16/9] overflow-hidden">
+      <div className="relative aspect-[4/3] overflow-hidden">
         <Image
           src={breed.image}
           alt={breed.alt}
           fill
-          className="object-cover group-hover:scale-105 transition-transform duration-700"
+          className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
           sizes="(max-width: 640px) 100vw, 50vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
