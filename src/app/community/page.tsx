@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { FarmBureauBadge } from "@/components/layout";
 
 export const metadata: Metadata = {
@@ -165,6 +166,60 @@ export default function CommunityPage() {
               className="rounded-lg bg-white/15 border border-white/30 px-8 py-4 text-base font-bold text-white hover:bg-white/25 transition-colors">
               Lewis County Farm Bureau →
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Raw Milk Waitlist — prominent for showcase attendees ── */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-4xl px-6 py-20">
+          <div className="grid gap-12 md:grid-cols-2 items-center">
+            <div className="flex flex-col items-center">
+              <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-100 p-4 bg-white">
+                <Image
+                  src="/images/farm/waitlist-qr.png"
+                  alt="QR code to join the RiverHouse Dairy waitlist and updates signup"
+                  width={280}
+                  height={280}
+                  className="rounded-lg"
+                />
+              </div>
+              <p className="mt-4 text-sm font-bold text-forest text-center">Scan to join the waitlist</p>
+              <p className="mt-1 text-xs text-forest-600 text-center">Raw milk · Updates · Farm news</p>
+            </div>
+            <div>
+              <p className="text-sm font-bold uppercase tracking-[0.2em] text-plum">Raw Milk Coming 2026</p>
+              <h2 className="text-3xl font-bold text-forest mt-3">Get on the List</h2>
+              <p className="mt-4 text-lg text-forest-600 leading-relaxed">
+                Raw goat milk year-round. Seasonal sheep milk. Washington State raw milk
+                licensing in progress — sales launch Summer 2026.
+              </p>
+              <p className="mt-3 text-base text-forest-600 leading-relaxed">
+                Sign up to be notified when products are available and tell us what
+                you&apos;re interested in — goat milk, sheep milk, yogurt, chèvre, or
+                value-added products.
+              </p>
+              <div className="mt-6 flex flex-wrap gap-2">
+                {["Raw Goat Milk", "Raw Sheep Milk", "Yogurt", "Chèvre", "Value-Added Products"].map((tag) => (
+                  <span key={tag} className="inline-block rounded-full border border-forest-200 bg-gray-50 px-3 py-1 text-sm font-medium text-forest">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+              <div className="mt-8">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfmqguPYi7oULqkHjJo6mFdAPg6E7L3YHkF6tVyaizRa6SMMQ/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-lg bg-plum px-8 py-4 text-base font-bold text-white hover:bg-plum-600 transition-colors shadow-lg"
+                >
+                  Join the Waitlist →
+                </a>
+              </div>
+              <p className="mt-3 text-xs text-forest-600">
+                Opens our signup form · riverhousedairy.com
+              </p>
+            </div>
           </div>
         </div>
       </section>
