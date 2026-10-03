@@ -126,6 +126,23 @@ export default function HomePage() {
                   </dd>
                 </div>
               </dl>
+              <div className="mt-10 max-w-sm">
+                <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-plum">
+                  Goats for Sale at the Patch
+                </h3>
+                <ul className="mt-4 divide-y divide-forest-100 border-y border-forest-100">
+                  {[
+                    { kind: "Wethers", price: "$150" },
+                    { kind: "Doelings", price: "$250" },
+                    { kind: "Registered doelings", price: "$350" },
+                  ].map(({ kind, price }) => (
+                    <li key={kind} className="flex items-baseline justify-between py-3 text-base">
+                      <span className="text-forest-600">{kind}</span>
+                      <span className="font-bold text-forest">{price}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>
