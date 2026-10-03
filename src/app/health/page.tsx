@@ -34,17 +34,17 @@ export default function HealthHubPage() {
                 Care Guides
               </h2>
               <p className="mt-1 text-base text-forest-600 max-w-xl">
-                Kidding prep, seasonal care, nutrition by life stage, new goat owner checklist.
+                New goat checklist, kidding basics, seasonal care and feeding basics.
               </p>
             </div>
             <div className="flex items-center gap-4 shrink-0 pl-8">
-              <span className="text-2xl font-bold text-plum">7</span>
+              <span className="text-2xl font-bold text-plum">4</span>
               <span className="text-plum group-hover:translate-x-1 transition-transform text-xl">→</span>
             </div>
           </Link>
 
           <p className="mt-10 text-sm text-forest-600">
-            More health resources coming soon — conditions, medications, FAMACHA guide, and myths debunked.
+            More basic care guides coming soon.
           </p>
         </div>
       </section>
