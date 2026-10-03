@@ -57,7 +57,7 @@ export default function ContactPage() {
               </h2>
               <p className="mt-4 text-lg text-forest-600 leading-relaxed">
                 Raw goat milk year-round. Seasonal sheep milk. Washington State
-                raw milk licensing in progress — sales launch Summer 2026.
+                raw milk licensing in progress — sales planned for June 2027.
               </p>
               <p className="mt-4 text-base text-forest-600 leading-relaxed">
                 Sign up to get notified when products are available, receive

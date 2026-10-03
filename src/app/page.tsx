@@ -40,7 +40,7 @@ export default function HomePage() {
               {/* Sub-copy */}
               <p className="mt-8 text-lg text-white/80 max-w-md leading-relaxed">
                 Small herd. Clean protocols. Washington State raw milk
-                licensing in progress — sales open Summer 2026.
+                licensing in progress — sales planned for June 2027.
               </p>
 
               {/* CTA */}
@@ -267,6 +267,47 @@ export default function HomePage() {
       </section>
 
       {/* ══════════════════════════════════════
+          DAIRY BUILDING — construction progress
+          ══════════════════════════════════════ */}
+      <section className="bg-cream">
+        <div className="mx-auto max-w-6xl px-8 sm:px-12 lg:px-16 py-24">
+          <div className="max-w-2xl">
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-plum">
+              Dairy Progress
+            </span>
+            <h2 className="text-4xl sm:text-5xl font-bold text-forest mt-2 leading-tight">
+              The dairy building{" "}<br className="hidden lg:inline" />shell is finished.
+            </h2>
+            <p className="mt-6 text-lg text-forest-600 leading-relaxed">
+              The walls and roof are up on our new dairy building. Next comes
+              the inside work: the milking parlor, milk room and everything
+              licensing requires. We expect to open in June 2027.
+            </p>
+          </div>
+          <div className="mt-12 grid gap-6 sm:grid-cols-5">
+            <div className="relative aspect-[4/3] sm:aspect-auto sm:col-span-3 rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src="/images/farm/dairy-building-shell-side.jpeg"
+                alt="The new RiverHouse Dairy building: white metal siding with a black roof, behind a wood rail fence"
+                fill
+                className="object-cover"
+                sizes="(max-width: 640px) 100vw, 60vw"
+              />
+            </div>
+            <div className="relative aspect-[4/3] sm:aspect-[3/4] sm:col-span-2 rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src="/images/farm/dairy-building-shell-road.jpeg"
+                alt="The new dairy building seen from the road across the pasture, with trees behind it"
+                fill
+                className="object-cover"
+                sizes="(max-width: 640px) 100vw, 40vw"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
           4. CTA — Forest band, inline
           ══════════════════════════════════════ */}
       <section className="bg-white">
@@ -274,7 +315,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-4xl sm:text-5xl font-bold text-forest leading-tight">
-                Raw milk sales<br />open Summer 2026.
+                Raw milk sales<br />planned for June 2027.
               </h2>
               <p className="mt-5 text-lg text-forest-600 leading-relaxed max-w-md">
                 Farm pickup in Chehalis, WA. Retail and bulk supply to local
@@ -299,7 +340,7 @@ export default function HomePage() {
                 { stat: "80+", label: "Animals" },
                 { stat: "8", label: "Breeds" },
                 { stat: "1,157", label: "Miles for Lacaune" },
-                { stat: "2026", label: "Sales Launch" },
+                { stat: "2027", label: "Sales Launch" },
               ].map(({ stat, label }) => (
                 <div key={label} className="bg-white px-8 py-8">
                   <p className="text-4xl font-bold text-plum">{stat}</p>

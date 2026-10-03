@@ -283,7 +283,12 @@ export default function AboutPage() {
                 text: "10 pure Lacaune semen straws arriving — 5 each from two different rams. Building a foundation breeding program for dairy sheep in the Pacific Northwest.",
               },
               {
-                label: "2026",
+                label: "Fall 2026",
+                title: "Dairy Building Shell Complete",
+                text: "The walls and roof are up on our new dairy building. Now we finish the inside: milking parlor, milk room, and everything state licensing requires.",
+              },
+              {
+                label: "June 2027",
                 title: "Licensed Organic Micro Dairy",
                 text: "Working toward becoming a licensed organic micro dairy with raw milk, artisan cheese, yogurt, ice cream, and value-added body care products.",
               },
