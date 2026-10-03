@@ -142,6 +142,13 @@ export default function HomePage() {
                     </li>
                   ))}
                 </ul>
+                <p className="mt-4 text-base text-forest-600">
+                  Additional goats are available —{" "}
+                  <Link href="/contact" className="font-bold text-plum hover:text-plum-600 transition-colors">
+                    ask us
+                  </Link>
+                  .
+                </p>
               </div>
             </div>
           </div>
