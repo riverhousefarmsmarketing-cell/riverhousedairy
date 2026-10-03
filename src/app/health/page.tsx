@@ -44,7 +44,7 @@ export default function HealthHubPage() {
           </Link>
 
           <p className="mt-10 text-sm text-forest-600">
-            More basic care guides coming soon.
+            Conditions, medications, myths and FAMACHA: update coming soon.
           </p>
         </div>
       </section>
