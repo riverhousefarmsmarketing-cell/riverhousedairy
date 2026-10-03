@@ -45,7 +45,7 @@ export default function Page() {
         </div>
         <h2 className="text-2xl font-bold text-forest">The 1,157-Mile Trip</h2>
         <p className="mt-4 text-lg text-forest-600 leading-relaxed">In 2025, Christine drove from Chehalis, Washington to South Dakota — 1,157 miles one way — to bring home four Lacaune-influenced ewes. Pure Lacaune genetics barely exist in the Pacific Northwest. This was the only way to get started.</p>
-        <p className="mt-4 text-lg text-forest-600 leading-relaxed">In Spring 2026, 10 pure Lacaune semen straws are arriving from two different French rams — sourced specifically to maximize genetic diversity in our emerging PNW Lacaune program. We are building something that doesn&apos;t exist here yet: a Lacaune foundation herd in the Pacific Northwest, bred for the high-butterfat sheep milk that makes exceptional artisan cheese and yogurt.</p>
+        <p className="mt-4 text-lg text-forest-600 leading-relaxed">In Fall 2026, 10 pure Lacaune semen straws are arriving from two different French rams — sourced specifically to maximize genetic diversity in our emerging PNW Lacaune program. We are building something that doesn&apos;t exist here yet: a Lacaune foundation herd in the Pacific Northwest, bred for the high-butterfat sheep milk that makes exceptional artisan cheese and yogurt.</p>
         <div className="mt-6 flex gap-4">
           <div className="rounded-xl bg-plum text-white px-5 py-3 text-center">
             <p className="text-2xl font-bold">1,157</p>
@@ -53,7 +53,7 @@ export default function Page() {
           </div>
           <div className="rounded-xl bg-forest text-white px-5 py-3 text-center">
             <p className="text-2xl font-bold">10</p>
-            <p className="text-sm text-cream-300">Pure semen straws arriving Spring 2026</p>
+            <p className="text-sm text-cream-300">Pure semen straws arriving Fall 2026</p>
           </div>
           <div className="rounded-xl bg-gray-100 text-forest px-5 py-3 text-center">
             <p className="text-2xl font-bold">2</p>

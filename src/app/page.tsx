@@ -39,8 +39,8 @@ export default function HomePage() {
 
               {/* Sub-copy */}
               <p className="mt-8 text-lg text-white/80 max-w-md leading-relaxed">
-                Small herd. Clean protocols. Washington State raw milk
-                licensing in progress — sales planned for June 2027.
+                Small herd in Lewis County. Raw milk sales planned for
+                June 2027.
               </p>
 
               {/* CTA */}
@@ -207,7 +207,7 @@ export default function HomePage() {
               <ul className="space-y-3">
                 {[
                   "Icelandic · Lacaune-cross · East Friesian",
-                  "Pure Lacaune genetics arriving Spring 2026",
+                  "Pure Lacaune genetics arriving Fall 2026",
                   "High-butterfat · Ideal for artisan cheese",
                   "Premium pricing · Seasonal availability",
                 ].map((fact) => (
@@ -237,53 +237,6 @@ export default function HomePage() {
       </section>
 
       {/* ══════════════════════════════════════
-          3. HOW WE OPERATE — 4 lines, no cards
-          ══════════════════════════════════════ */}
-      <section className="bg-forest">
-        <div className="mx-auto max-w-6xl px-8 sm:px-12 lg:px-16 py-24">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-
-            {/* Left: heading */}
-            <div>
-              <p className="text-sm font-bold uppercase tracking-[0.25em] text-plum-200 mb-4">
-                How We Operate
-              </p>
-              <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
-                Clean milk starts<br />before the parlor.
-              </h2>
-              <p className="mt-6 text-lg text-cream-300 leading-relaxed max-w-sm">
-                Every protocol we follow exists to protect the milk and the animals.
-                Not because it&apos;s required — because it&apos;s right.
-              </p>
-              <Link
-                href="/about"
-                className="mt-8 inline-block text-sm font-bold text-plum-200 hover:text-white transition-colors"
-              >
-                About the farm →
-              </Link>
-            </div>
-
-            {/* Right: 4 tight protocol lines */}
-            <div className="space-y-0 divide-y divide-white/10">
-              {[
-                { label: "Closed herd", detail: "No outside animals without quarantine and health screening." },
-                { label: "Individual tracking", detail: "Every animal tracked daily — health, milk, breeding, FAMACHA scores." },
-                { label: "Targeted protocols", detail: "Data-driven deworming and health decisions, not calendar schedules." },
-                { label: "State licensed", detail: "WA raw milk license in progress. Operating in full regulatory compliance." },
-              ].map(({ label, detail }) => (
-                <div key={label} className="py-5 flex gap-6">
-                  <span className="text-plum-200 font-bold text-sm uppercase tracking-wider w-40 shrink-0 pt-0.5">
-                    {label}
-                  </span>
-                  <span className="text-cream-300 text-base leading-relaxed">{detail}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ══════════════════════════════════════
           DAIRY BUILDING — construction progress
           ══════════════════════════════════════ */}
       <section className="bg-cream">
@@ -297,8 +250,7 @@ export default function HomePage() {
             </h2>
             <p className="mt-6 text-lg text-forest-600 leading-relaxed">
               The walls and roof are up on our new dairy building. Next comes
-              the inside work: the milking parlor, milk room and everything
-              licensing requires. We expect to open in June 2027.
+              the inside work, and we expect to open in June 2027.
             </p>
           </div>
           <div className="mt-12 grid gap-6 sm:grid-cols-5">
@@ -336,8 +288,8 @@ export default function HomePage() {
               </h2>
               <p className="mt-5 text-lg text-forest-600 leading-relaxed max-w-md">
                 Farm pickup in Chehalis, WA. Retail and bulk supply to local
-                creameries. Get on the list now — we&apos;ll notify you when
-                licensing is complete.
+                creameries. Get on the list now — we&apos;ll let you know as
+                soon as sales open.
               </p>
               <div className="mt-8">
                 <a
