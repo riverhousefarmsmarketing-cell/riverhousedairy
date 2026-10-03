@@ -11,7 +11,7 @@ export function ShowcaseBanner() {
         <div className="flex items-center gap-2 text-sm font-medium flex-1 justify-center">
           <span className="text-plum-200">★</span>
           <span>
-            🎃 Our goats are at the pumpkin patch all October —{" "}
+            🎃 Our goats are at The Pumpkin Patch in Centralia, daily 10–6 through Oct 31 —{" "}
             <Link href="/#goat-tote" className="underline underline-offset-2 hover:text-plum-200 transition-colors">
               come visit The Goat Tote
             </Link>

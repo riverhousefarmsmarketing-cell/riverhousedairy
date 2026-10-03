@@ -90,13 +90,42 @@ export default function HomePage() {
                 Now Through October
               </span>
               <h2 className="text-4xl sm:text-5xl font-bold text-forest mt-2 leading-tight">
-                The goats are at<br />the pumpkin patch!
+                The goats are at{" "}<br className="hidden lg:inline" />the pumpkin patch!
               </h2>
               <p className="mt-6 text-lg text-forest-600 leading-relaxed max-w-md">
-                The Goat Tote is set up at the pumpkin patch for the whole
-                month of October. Pick out your pumpkins, then stop by and
-                say hello to the herd.
+                The Goat Tote is set up at The Pumpkin Patch in Centralia for
+                the whole month of October. Pick out your pumpkins, then stop
+                by and say hello to the herd.
               </p>
+              <dl className="mt-8 space-y-4 text-base">
+                <div className="flex gap-6">
+                  <dt className="text-plum font-bold text-sm uppercase tracking-wider w-20 shrink-0 pt-0.5">
+                    Where
+                  </dt>
+                  <dd className="text-forest-600">
+                    <a
+                      href="https://www.google.com/maps/search/?api=1&query=518+Goodrich+Rd+Centralia+WA+98531"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-plum transition-colors"
+                    >
+                      <strong className="text-forest">The Pumpkin Patch</strong>
+                      <br />
+                      518 Goodrich Rd, Centralia, WA 98531
+                    </a>
+                  </dd>
+                </div>
+                <div className="flex gap-6">
+                  <dt className="text-plum font-bold text-sm uppercase tracking-wider w-20 shrink-0 pt-0.5">
+                    When
+                  </dt>
+                  <dd className="text-forest-600">
+                    Every day, 10am–6pm
+                    <br />
+                    Through October 31
+                  </dd>
+                </div>
+              </dl>
             </div>
           </div>
         </div>
