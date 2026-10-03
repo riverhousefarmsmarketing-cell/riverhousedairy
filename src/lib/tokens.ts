@@ -88,6 +88,7 @@ export const primaryNav: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "Our Animals", href: "/animals" },
   { label: "About", href: "/about" },
+  { label: "Goat Tote", href: "/goat-tote" },
   {
     label: "Goat Health",
     href: "/health",
