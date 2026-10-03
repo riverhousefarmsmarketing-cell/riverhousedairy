@@ -140,7 +140,6 @@ export const stats = [
 export const askMeAboutTopics = [
   { slug: "leveraged-seed-buy", title: "Leveraged Seed Buy Through Farm Bureau", farmBureau: true },
   { slug: "farmers-networking-series", title: "Farmers Networking Series", farmBureau: true },
-  { slug: "raw-milk-washington", title: "Raw Milk in Washington State", farmBureau: false },
   { slug: "lacaune-genetics", title: "Building Lacaune Genetics in the PNW", farmBureau: false },
   { slug: "famacha-scoring", title: "FAMACHA Scoring for Parasite Management", farmBureau: false },
   { slug: "4h-livestock", title: "4-H Livestock Projects for Youth", farmBureau: true },

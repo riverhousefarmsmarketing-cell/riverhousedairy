@@ -137,7 +137,7 @@ export default function AboutPage() {
               1,157 miles to South Dakota to bring home four Lacaune-influenced ewes.
               Lacaune are the breed behind Roquefort cheese in France — some of the
               richest dairy sheep genetics in the world. We&apos;re building a Lacaune
-              breeding program in the Pacific Northwest, and in spring 2026, we have
+              breeding program in the Pacific Northwest, and in fall 2026, we have
               10 pure Lacaune semen straws arriving from two different rams.
             </p>
           </div>
@@ -278,14 +278,19 @@ export default function AboutPage() {
           <div className="mt-10 space-y-8">
             {[
               {
-                label: "Spring 2026",
+                label: "Fall 2026",
                 title: "Pure Lacaune Genetics",
                 text: "10 pure Lacaune semen straws arriving — 5 each from two different rams. Building a foundation breeding program for dairy sheep in the Pacific Northwest.",
               },
               {
-                label: "2026",
-                title: "Licensed Organic Micro Dairy",
-                text: "Working toward becoming a licensed organic micro dairy with raw milk, artisan cheese, yogurt, ice cream, and value-added body care products.",
+                label: "Fall 2026",
+                title: "Dairy Building Shell Complete",
+                text: "The walls and roof are up on our new dairy building. Next we finish the inside.",
+              },
+              {
+                label: "June 2027",
+                title: "Micro Dairy Opens",
+                text: "Opening our micro dairy with raw milk, artisan cheese, yogurt, ice cream, and value-added body care products.",
               },
               {
                 label: "2026–2027",

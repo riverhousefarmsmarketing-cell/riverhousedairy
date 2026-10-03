@@ -188,11 +188,11 @@ export default function CommunityPage() {
               <p className="mt-1 text-xs text-forest-600 text-center">Raw milk · Updates · Farm news</p>
             </div>
             <div>
-              <p className="text-sm font-bold uppercase tracking-[0.2em] text-plum">Raw Milk Coming 2026</p>
+              <p className="text-sm font-bold uppercase tracking-[0.2em] text-plum">Raw Milk Coming 2027</p>
               <h2 className="text-3xl font-bold text-forest mt-3">Get on the List</h2>
               <p className="mt-4 text-lg text-forest-600 leading-relaxed">
-                Raw goat milk year-round. Seasonal sheep milk. Washington State raw milk
-                licensing in progress — sales launch Summer 2026.
+                Raw goat milk year-round. Seasonal sheep milk. Sales planned for
+                June 2027.
               </p>
               <p className="mt-3 text-base text-forest-600 leading-relaxed">
                 Sign up to be notified when products are available and tell us what

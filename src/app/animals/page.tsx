@@ -189,7 +189,7 @@ export default function AnimalsPage() {
             <div>
               <p className="font-bold text-white text-lg">1,157 Miles for Lacaune Genetics</p>
               <p className="text-cream-300 mt-2 leading-relaxed">
-                In 2025, Christine drove from Chehalis to South Dakota to bring home four Lacaune-influenced ewes. In Spring 2026, 10 pure Lacaune semen straws arrive from France. We&apos;re building a Lacaune breeding program in the Pacific Northwest — a breed that barely exists here.
+                In 2025, Christine drove from Chehalis to South Dakota to bring home four Lacaune-influenced ewes. In Fall 2026, 10 pure Lacaune semen straws arrive from France. We&apos;re building a Lacaune breeding program in the Pacific Northwest — a breed that barely exists here.
               </p>
               <Link href="/about" className="inline-block mt-3 text-sm font-bold text-plum-200 hover:text-white transition-colors">
                 Read the full story →

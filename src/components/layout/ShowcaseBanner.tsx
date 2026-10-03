@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 export function ShowcaseBanner() {
   const [dismissed, setDismissed] = useState(false);
   if (dismissed) return null;
@@ -10,12 +11,10 @@ export function ShowcaseBanner() {
         <div className="flex items-center gap-2 text-sm font-medium flex-1 justify-center">
           <span className="text-plum-200">★</span>
           <span>
-            We&apos;re at the{" "}
-            <strong className="text-white">Lewis County Farm Bureau Showcase</strong>
-            {" "}today — come find us, or{" "}
-            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__Yb9ijhURTRQSFRaREM2VDJWQTE0N0hESjZRNEJSTy4u&origin=QRCode" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-plum-200 transition-colors">
-              join the raw milk waitlist
-            </a>
+            🎃 Our goats are at The Pumpkin Patch in Centralia, daily 10–6 through Oct 31 —{" "}
+            <Link href="/#goat-tote" className="underline underline-offset-2 hover:text-plum-200 transition-colors">
+              come visit The Goat Tote
+            </Link>
           </span>
           <span className="text-plum-200">★</span>
         </div>

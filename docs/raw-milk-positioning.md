@@ -12,7 +12,7 @@
 
 ### Licensing
 - WA State raw milk licensing: Application in progress
-- Target launch: Summer 2026
+- Target launch: June 2027 (updated Oct 2026; dairy building shell complete)
 
 ### Homepage Structure
 1. Hero — Raw goat & sheep milk, location, primary CTA: "Join the Raw Milk List"

@@ -39,8 +39,8 @@ export default function HomePage() {
 
               {/* Sub-copy */}
               <p className="mt-8 text-lg text-white/80 max-w-md leading-relaxed">
-                Small herd. Clean protocols. Washington State raw milk
-                licensing in progress — sales open Summer 2026.
+                Small herd in Lewis County. Raw milk sales planned for
+                June 2027.
               </p>
 
               {/* CTA */}
@@ -67,6 +67,91 @@ export default function HomePage() {
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/40">
           <span className="text-xs uppercase tracking-widest">Scroll</span>
           <div className="w-px h-8 bg-white/30" />
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
+          OCTOBER — The Goat Tote at the pumpkin patch
+          ══════════════════════════════════════ */}
+      <section id="goat-tote" className="bg-cream scroll-mt-24">
+        <div className="mx-auto max-w-6xl px-8 sm:px-12 lg:px-16 py-24">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src="/images/farm/goat-tote-pumpkin-patch.jpeg"
+                alt="The Goat Tote, RiverHouse Dairy's goat trailer, set up with goats in a pen at the pumpkin patch"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
+            <div>
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-plum">
+                Now Through October
+              </span>
+              <h2 className="text-4xl sm:text-5xl font-bold text-forest mt-2 leading-tight">
+                The goats are at{" "}<br className="hidden lg:inline" />the pumpkin patch!
+              </h2>
+              <p className="mt-6 text-lg text-forest-600 leading-relaxed max-w-md">
+                The Goat Tote is set up at The Pumpkin Patch in Centralia for
+                the whole month of October. Pick out your pumpkins, then stop
+                by and say hello to the herd.
+              </p>
+              <dl className="mt-8 space-y-4 text-base">
+                <div className="flex gap-6">
+                  <dt className="text-plum font-bold text-sm uppercase tracking-wider w-20 shrink-0 pt-0.5">
+                    Where
+                  </dt>
+                  <dd className="text-forest-600">
+                    <a
+                      href="https://www.google.com/maps/search/?api=1&query=518+Goodrich+Rd+Centralia+WA+98531"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-plum transition-colors"
+                    >
+                      <strong className="text-forest">The Pumpkin Patch</strong>
+                      <br />
+                      518 Goodrich Rd, Centralia, WA 98531
+                    </a>
+                  </dd>
+                </div>
+                <div className="flex gap-6">
+                  <dt className="text-plum font-bold text-sm uppercase tracking-wider w-20 shrink-0 pt-0.5">
+                    When
+                  </dt>
+                  <dd className="text-forest-600">
+                    Every day, 10am–6pm
+                    <br />
+                    Through October 31
+                  </dd>
+                </div>
+              </dl>
+              <div className="mt-10 max-w-sm">
+                <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-plum">
+                  Goats for Sale at the Patch
+                </h3>
+                <ul className="mt-4 divide-y divide-forest-100 border-y border-forest-100">
+                  {[
+                    { kind: "Wethers", price: "$150" },
+                    { kind: "Doelings", price: "$250" },
+                    { kind: "Registered doelings", price: "$350" },
+                  ].map(({ kind, price }) => (
+                    <li key={kind} className="flex items-baseline justify-between py-3 text-base">
+                      <span className="text-forest-600">{kind}</span>
+                      <span className="font-bold text-forest">{price}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-4 text-base text-forest-600">
+                  Additional goats are available —{" "}
+                  <Link href="/contact" className="font-bold text-plum hover:text-plum-600 transition-colors">
+                    ask us
+                  </Link>
+                  .
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -129,7 +214,7 @@ export default function HomePage() {
               <ul className="space-y-3">
                 {[
                   "Icelandic · Lacaune-cross · East Friesian",
-                  "Pure Lacaune genetics arriving Spring 2026",
+                  "Pure Lacaune genetics arriving Fall 2026",
                   "High-butterfat · Ideal for artisan cheese",
                   "Premium pricing · Seasonal availability",
                 ].map((fact) => (
@@ -159,47 +244,40 @@ export default function HomePage() {
       </section>
 
       {/* ══════════════════════════════════════
-          3. HOW WE OPERATE — 4 lines, no cards
+          DAIRY BUILDING — construction progress
           ══════════════════════════════════════ */}
-      <section className="bg-forest">
+      <section className="bg-cream">
         <div className="mx-auto max-w-6xl px-8 sm:px-12 lg:px-16 py-24">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-
-            {/* Left: heading */}
-            <div>
-              <p className="text-sm font-bold uppercase tracking-[0.25em] text-plum-200 mb-4">
-                How We Operate
-              </p>
-              <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
-                Clean milk starts<br />before the parlor.
-              </h2>
-              <p className="mt-6 text-lg text-cream-300 leading-relaxed max-w-sm">
-                Every protocol we follow exists to protect the milk and the animals.
-                Not because it&apos;s required — because it&apos;s right.
-              </p>
-              <Link
-                href="/about"
-                className="mt-8 inline-block text-sm font-bold text-plum-200 hover:text-white transition-colors"
-              >
-                About the farm →
-              </Link>
+          <div className="max-w-2xl">
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-plum">
+              Dairy Progress
+            </span>
+            <h2 className="text-4xl sm:text-5xl font-bold text-forest mt-2 leading-tight">
+              The dairy building{" "}<br className="hidden lg:inline" />shell is finished.
+            </h2>
+            <p className="mt-6 text-lg text-forest-600 leading-relaxed">
+              The walls and roof are up on our new dairy building. Next comes
+              the inside work, and we expect to open in June 2027.
+            </p>
+          </div>
+          <div className="mt-12 grid gap-6 sm:grid-cols-5">
+            <div className="relative aspect-[4/3] sm:aspect-auto sm:col-span-3 rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src="/images/farm/dairy-building-shell-side.jpeg"
+                alt="The new RiverHouse Dairy building: white metal siding with a black roof, behind a wood rail fence"
+                fill
+                className="object-cover"
+                sizes="(max-width: 640px) 100vw, 60vw"
+              />
             </div>
-
-            {/* Right: 4 tight protocol lines */}
-            <div className="space-y-0 divide-y divide-white/10">
-              {[
-                { label: "Closed herd", detail: "No outside animals without quarantine and health screening." },
-                { label: "Individual tracking", detail: "Every animal tracked daily — health, milk, breeding, FAMACHA scores." },
-                { label: "Targeted protocols", detail: "Data-driven deworming and health decisions, not calendar schedules." },
-                { label: "State licensed", detail: "WA raw milk license in progress. Operating in full regulatory compliance." },
-              ].map(({ label, detail }) => (
-                <div key={label} className="py-5 flex gap-6">
-                  <span className="text-plum-200 font-bold text-sm uppercase tracking-wider w-40 shrink-0 pt-0.5">
-                    {label}
-                  </span>
-                  <span className="text-cream-300 text-base leading-relaxed">{detail}</span>
-                </div>
-              ))}
+            <div className="relative aspect-[4/3] sm:aspect-[3/4] sm:col-span-2 rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src="/images/farm/dairy-building-shell-road.jpeg"
+                alt="The new dairy building seen from the road across the pasture, with trees behind it"
+                fill
+                className="object-cover"
+                sizes="(max-width: 640px) 100vw, 40vw"
+              />
             </div>
           </div>
         </div>
@@ -213,12 +291,12 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-4xl sm:text-5xl font-bold text-forest leading-tight">
-                Raw milk sales<br />open Summer 2026.
+                Raw milk sales<br />planned for June 2027.
               </h2>
               <p className="mt-5 text-lg text-forest-600 leading-relaxed max-w-md">
                 Farm pickup in Chehalis, WA. Retail and bulk supply to local
-                creameries. Get on the list now — we&apos;ll notify you when
-                licensing is complete.
+                creameries. Get on the list now — we&apos;ll let you know as
+                soon as sales open.
               </p>
               <div className="mt-8">
                 <a
@@ -238,7 +316,7 @@ export default function HomePage() {
                 { stat: "80+", label: "Animals" },
                 { stat: "8", label: "Breeds" },
                 { stat: "1,157", label: "Miles for Lacaune" },
-                { stat: "2026", label: "Sales Launch" },
+                { stat: "2027", label: "Sales Launch" },
               ].map(({ stat, label }) => (
                 <div key={label} className="bg-white px-8 py-8">
                   <p className="text-4xl font-bold text-plum">{stat}</p>
