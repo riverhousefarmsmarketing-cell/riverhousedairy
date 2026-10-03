@@ -3,229 +3,133 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Goat Care Guides | RiverHouse Dairy",
-  description: "Kidding prep, seasonal care, nutrition by life stage, new goat owner checklist — from the barn at RiverHouse Dairy in Chehalis, Washington.",
+  description: "Basic goat care: new goat checklist, kidding basics, seasonal care and feeding basics, from the barn at RiverHouse Dairy in Chehalis, Washington.",
 };
 
 const guides = [
   {
     id: "new-owner",
     title: "New Goat Owner Checklist",
-    subtitle: "Before you bring them home",
+    subtitle: "Getting ready for your first goats",
     content: [
       {
         heading: "Before They Arrive",
         items: [
-          "Fencing: minimum 4-foot woven wire or no-climb horse fence — not just barbed wire",
-          "Shelter: three-sided structure minimum, dry bedding, draft-free but ventilated",
-          "Separate quarantine area: new animals must be isolated for 30 days minimum",
-          "Fresh water source that cannot tip over",
-          "Mineral feeder: loose goat-specific minerals, never sheep minerals",
-          "Basic medical supplies: thermometer, syringes, needles, epinephrine, electrolytes",
-          "Identify a vet before you need one — not all vets see goats",
+          "Sturdy fencing that goats can't climb over or squeeze through",
+          "A dry, draft-free shelter with clean bedding",
+          "A separate pen to keep new goats apart from your herd for the first few weeks",
+          "Fresh, clean water every day",
+          "Loose minerals made for goats",
+          "Find a vet who sees goats before you need one",
         ],
       },
       {
-        heading: "First-Day Health Check",
+        heading: "The First Few Weeks",
         items: [
-          "Temperature: normal is 101.5–104°F. Know your baseline.",
-          "Eyes: bright and clear, no discharge",
-          "Hooves: check for overgrowth, rot, or softness",
-          "Body condition score: you should feel ribs but not see them prominently",
-          "FAMACHA score: check eyelid color and record it as your baseline",
-          "Fecal egg count: send a fresh sample to a vet lab within first week",
-        ],
-      },
-      {
-        heading: "First-Month Protocol",
-        items: [
-          "CDT vaccination if not current (2 doses 3–4 weeks apart for unvaccinated animals)",
-          "BoSe injection if selenium-deficient region (WA soils are deficient)",
-          "Hoof trim if needed",
-          "Hold off on introducing to main herd until quarantine period complete",
-          "Observe eating, drinking, social behavior daily",
+          "Learn what normal looks like: eating, chewing cud, bright eyes, alert and curious",
+          "Ask your vet about a basic health check and vaccinations",
+          "Keep their feed the same at first and make any changes slowly",
+          "Goats are herd animals, so never keep just one",
         ],
       },
     ],
   },
   {
     id: "kidding",
-    title: "Kidding Preparation Guide",
-    subtitle: "The 30 days before, the day of, the week after",
+    title: "Kidding Basics",
+    subtitle: "Getting ready for babies",
     content: [
       {
-        heading: "Kidding Kit (Have This Ready)",
+        heading: "Before Kidding",
         items: [
-          "OB lubricant",
-          "Iodine 7% solution for navel dipping",
-          "Dental floss (for tying off umbilicus if needed)",
-          "Bulb syringe for clearing airways",
-          "Clean towels (you will need more than you think)",
-          "Heat lamp or heating pad for cold weather",
-          "Colostrum — fresh from a CAE-negative doe, or commercial powdered",
-          "Pritchard nipple and bottle for weak kids",
-          "Propylene glycol for doe if she goes off feed post-kidding",
-          "Calcium gluconate for milk fever risk does",
-          "Oxytocin (Rx) — talk to your vet beforehand",
-          "Your vet's emergency number written somewhere visible",
+          "Talk with your vet ahead of time about what to expect and when to call",
+          "Set up a clean, dry, quiet kidding pen",
+          "Have clean towels and your vet's phone number handy",
         ],
       },
       {
-        heading: "Signs of Labor",
+        heading: "Signs She's Getting Close",
         items: [
-          "Ligaments on either side of tail head soften and disappear (12–24 hours before kidding)",
-          "Udder fills rapidly",
-          "Discharge changes from thick white to clear/straw colored",
-          "Restlessness, pawing, getting up and down repeatedly",
-          "Vocalization, talking to belly",
-          "Active labor: contractions visible, doe pushing",
+          "Her udder fills up",
+          "She's restless, pawing, or getting up and down",
+          "She talks more or wants to be alone",
         ],
       },
       {
-        heading: "Normal vs. Intervene",
+        heading: "During and After",
         items: [
-          "NORMAL: First kid within 30 minutes of active pushing",
-          "NORMAL: Water sac visible, then two front feet and nose",
-          "INTERVENE: Pushing hard for 30+ minutes with no progress",
-          "INTERVENE: Head back (only feet visible, no nose)",
-          "INTERVENE: One leg back",
-          "INTERVENE: Doe in distress or exhausted",
-          "Call your vet for anything you're uncertain about — do not wait",
-        ],
-      },
-      {
-        heading: "Newborn Kid Care",
-        items: [
-          "Clear nose and mouth immediately — wipe, don't let doe eat membranes off face",
-          "Colostrum within first 2 hours is critical — 10% of body weight in first 24 hours",
-          "Dip navel in 7% iodine immediately — do not skip this",
-          "Check for extra teats on does (teat defects are heritable)",
-          "Check for hard palate (cleft palate = cannot nurse, will not thrive)",
-          "Dry and warm if temperatures are below 50°F",
-          "Record birth weight, parents, and birth date",
+          "Most does kid on their own. Watch quietly from a distance.",
+          "If you're worried about how labor is going, call your vet",
+          "Make sure kids are breathing, dry and warm",
+          "Kids should nurse soon after birth. That first milk (colostrum) matters.",
         ],
       },
     ],
   },
   {
     id: "seasonal-pnw",
-    title: "Seasonal Care — Pacific Northwest",
-    subtitle: "Lewis County and western WA specific",
+    title: "Seasonal Care",
+    subtitle: "Through the year in western Washington",
     content: [
       {
-        heading: "Spring (March–May) — Parasite Season Starts",
+        heading: "Spring",
         items: [
-          "Begin FAMACHA scoring every 2 weeks — barber pole worm larvae become active",
-          "Do NOT deworm everything reflexively — test first with fecal egg count",
-          "Watch late-pregnant does for pregnancy toxemia as they approach their due date",
-          "Mud management: hooves rot in wet PNW springs. Keep bedding clean and dry.",
-          "Pasture management: avoid overgrazing, especially in wet conditions",
-          "Kidding season: be prepared for cold, wet nights in early spring",
+          "Watch for signs of worms as pastures green up, and ask your vet about testing",
+          "Keep bedding dry. Wet spring mud is hard on hooves.",
+          "Be ready for cold, wet nights if you have kids on the ground",
         ],
       },
       {
-        heading: "Summer (June–August) — Peak Production",
+        heading: "Summer",
         items: [
-          "Heat stress: goats tolerate heat poorly. Ensure shade and cool fresh water always.",
-          "Peak parasite pressure: FAMACHA every 2 weeks minimum",
-          "Fly control: flies spread pinkeye and mastitis. Face flies are a major problem.",
-          "Hoof trimming: growth accelerates in summer",
-          "Milk quality: rapid chilling becomes even more critical in summer heat",
-          "Watch for signs of dehydration in hot weather — especially lactating does",
+          "Shade and cool, fresh water at all times",
+          "Keep flies down around the barn",
+          "Check and trim hooves. They grow faster in summer.",
         ],
       },
       {
-        heading: "Fall (September–November) — Breeding Season",
+        heading: "Fall",
         items: [
-          "Buck introductions: does cycle September–March (some breeds year-round)",
-          "Pre-breeding body condition: does should be in good condition at breeding",
-          "CDT boosters for does being bred if not current",
-          "Begin increasing nutrition for bred does in last 6 weeks of pregnancy",
-          "Parasite monitoring continues until consistent frost",
-          "Prepare shelter for cold rain — fall in the PNW is wet, not just cold",
+          "Breeding season begins for most does",
+          "Get shelters ready for the rain",
         ],
       },
       {
-        heading: "Winter (December–February) — Cold Management",
+        heading: "Winter",
         items: [
-          "Shelter is non-negotiable in PNW winters — goats do not handle wet-cold",
-          "Increase hay: energy needs rise 20–30% in cold weather",
-          "Water: goats dramatically reduce intake when water is very cold — use a heater",
-          "Bedding depth: deep dry bedding provides warmth. Wet bedding causes health problems.",
-          "Watch for respiratory illness: drafty shelters + temperature swings = pneumonia",
-          "Late-pregnancy doe monitoring: pregnancy toxemia risk increases",
+          "A dry shelter out of the wind and rain",
+          "More hay when it's cold",
+          "Keep water from freezing. Goats drink less when water is icy.",
         ],
       },
     ],
   },
   {
-    id: "nutrition-lactating",
-    title: "Nutrition: Lactating Does",
-    subtitle: "Feeding the milking doe right",
+    id: "feeding",
+    title: "Feeding Basics",
+    subtitle: "Keep it simple",
     content: [
       {
-        heading: "Core Principles",
+        heading: "Every Goat",
         items: [
-          "Forage first: high-quality hay is the foundation of the lactating doe's diet",
-          "Energy needs peak at 3–4 weeks post-freshening — this is when deficits cause problems",
-          "Grain supplementation supports production but must be introduced gradually",
-          "Sudden diet changes in freshened does cause digestive upset and production drops",
-          "Body condition should be maintained between 2.5–3.5 throughout lactation",
+          "Good hay is the foundation of the diet",
+          "Fresh water, always",
+          "Loose minerals made for goats, not for sheep",
+          "Change feed slowly",
         ],
       },
       {
-        heading: "Calcium Management",
+        heading: "Milking Does",
         items: [
-          "Heavy milkers pull calcium faster than the body can mobilize it",
-          "Watch for milk fever signs: weakness, cold extremities, down doe in early lactation",
-          "DCAD (dietary cation-anion difference) nutrition in late dry period helps prevent it",
-          "Avoid excess calcium supplementation before freshening — it suppresses the body's mobilization response",
-          "Keep CMPK or calcium gluconate on hand at all times for fresh does",
+          "Milking does need more feed than dry does",
+          "Ask your vet or feed store about a balanced ration",
         ],
       },
       {
-        heading: "Goat-Specific Minerals",
+        heading: "Bucks & Wethers",
         items: [
-          "Never use sheep minerals for goats — copper levels are too low",
-          "Copper is often deficient in PNW — watch for fish tail, faded coat, poor hoof quality",
-          "BoSe injection pre-kidding: Washington soils are selenium deficient",
-          "Loose minerals always available — not block, which provides inadequate intake",
-          "Zinc supports hoof quality and immune function",
-        ],
-      },
-    ],
-  },
-  {
-    id: "nutrition-bucks",
-    title: "Nutrition: Bucks & Wethers",
-    subtitle: "The urinary calculi prevention guide",
-    content: [
-      {
-        heading: "The Single Most Important Rule",
-        items: [
-          "Maintain 2:1 calcium to phosphorus ratio in all male goat diets",
-          "High-grain diets with high phosphorus are the #1 cause of urinary calculi",
-          "Fresh water always available — dehydration dramatically increases stone risk",
-          "Ammonium chloride in feed or minerals acidifies urine and prevents crystal formation",
-          "Never feed males the same grain ration as milking does",
-        ],
-      },
-      {
-        heading: "Signs of Urinary Blockage (Emergency)",
-        items: [
-          "Straining to urinate with little or no output",
-          "Crying out, kicking at belly, hunching up",
-          "Dribbling urine or bloody discharge at sheath",
-          "Complete blockage is fatal within 24–48 hours — call your vet immediately",
-          "Do not wait to see if it resolves — it will not",
-        ],
-      },
-      {
-        heading: "Rut Season",
-        items: [
-          "Bucks often go off feed completely during rut — watch body condition",
-          "Provide high-quality hay to maintain weight",
-          "Separate bucks from does except during planned breeding — constant exposure exhausts them",
-          "Urinary risk increases during rut due to reduced water intake",
+          "Go easy on grain",
+          "If a buck or wether strains to pee, call your vet right away",
         ],
       },
     ],
@@ -245,7 +149,7 @@ export default function GuidesPage() {
             <span className="text-white">Care Guides</span>
           </nav>
           <h1 className="text-4xl font-bold text-white">Care Guides</h1>
-          <p className="mt-3 text-lg text-cream-300 max-w-2xl">Practical management from the barn at RiverHouse Dairy. Lewis County, Washington context throughout.</p>
+          <p className="mt-3 text-lg text-cream-300 max-w-2xl">Basic goat care from the barn at RiverHouse Dairy. A starting point, not medical advice. Your vet is your best resource.</p>
         </div>
       </section>
 
