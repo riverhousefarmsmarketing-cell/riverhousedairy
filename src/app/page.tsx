@@ -97,6 +97,12 @@ export default function HomePage() {
                 the whole month of October. Pick out your pumpkins, then stop
                 by and say hello to the herd.
               </p>
+              <Link
+                href="/goat-tote"
+                className="mt-4 inline-block text-base font-bold text-plum hover:text-plum-600 transition-colors"
+              >
+                See how we built the Goat Tote →
+              </Link>
               <dl className="mt-8 space-y-4 text-base">
                 <div className="flex gap-6">
                   <dt className="text-plum font-bold text-sm uppercase tracking-wider w-20 shrink-0 pt-0.5">
