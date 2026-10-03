@@ -71,6 +71,38 @@ export default function HomePage() {
       </section>
 
       {/* ══════════════════════════════════════
+          OCTOBER — The Goat Tote at the pumpkin patch
+          ══════════════════════════════════════ */}
+      <section id="goat-tote" className="bg-cream scroll-mt-24">
+        <div className="mx-auto max-w-6xl px-8 sm:px-12 lg:px-16 py-24">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src="/images/farm/goat-tote-pumpkin-patch.jpeg"
+                alt="The Goat Tote, RiverHouse Dairy's goat trailer, set up with goats in a pen at the pumpkin patch"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
+            <div>
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-plum">
+                Now Through October
+              </span>
+              <h2 className="text-4xl sm:text-5xl font-bold text-forest mt-2 leading-tight">
+                The goats are at<br />the pumpkin patch!
+              </h2>
+              <p className="mt-6 text-lg text-forest-600 leading-relaxed max-w-md">
+                The Goat Tote is set up at the pumpkin patch for the whole
+                month of October. Pick out your pumpkins, then stop by and
+                say hello to the herd.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
           2. WHAT WE PRODUCE — Two columns, scannable
           ══════════════════════════════════════ */}
       <section className="bg-white">
