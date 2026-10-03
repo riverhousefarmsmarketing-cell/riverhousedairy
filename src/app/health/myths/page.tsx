@@ -1,4 +1,8 @@
-import { redirect } from "next/navigation";
+import type { Metadata } from "next";
+import { HealthComingSoon } from "@/components/ComingSoon";
+
+export const metadata: Metadata = { title: "Myths Debunked | RiverHouse Dairy" };
+
 export default function Page() {
-  redirect("/health");
+  return <HealthComingSoon title="Myths Debunked" />;
 }
