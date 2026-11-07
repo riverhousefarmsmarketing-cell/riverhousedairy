@@ -153,20 +153,21 @@ export default function GoatTotePage() {
         <div className="mx-auto max-w-6xl px-8 sm:px-12 lg:px-16 py-24">
           <div className="max-w-2xl">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-plum">
-              Where to Find It
+              Back Home
             </span>
             <h2 className="text-4xl font-bold text-forest mt-2 leading-tight">
-              At The Pumpkin Patch all October
+              The goats have gone home
             </h2>
             <p className="mt-6 text-lg text-forest-600 leading-relaxed">
-              518 Goodrich Rd, Centralia, WA 98531. Every day, 10am–6pm,
-              through October 31.
+              The Goat Tote spent October at The Pumpkin Patch in Centralia.
+              The season is over and the herd is back home on the farm.
+              Thank you to everyone who came to visit!
             </p>
             <Link
               href="/#goat-tote"
               className="mt-8 inline-block rounded-lg bg-plum px-8 py-4 text-base font-bold text-white hover:bg-plum-600 transition-colors shadow-sm"
             >
-              Visit details and goat prices
+              See goats for sale
             </Link>
           </div>
         </div>
