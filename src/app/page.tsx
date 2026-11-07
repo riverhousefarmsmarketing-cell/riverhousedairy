@@ -71,7 +71,7 @@ export default function HomePage() {
       </section>
 
       {/* ══════════════════════════════════════
-          OCTOBER — The Goat Tote at the pumpkin patch
+          The Goat Tote — pumpkin patch season wrap-up
           ══════════════════════════════════════ */}
       <section id="goat-tote" className="bg-cream scroll-mt-24">
         <div className="mx-auto max-w-6xl px-8 sm:px-12 lg:px-16 py-24">
@@ -87,15 +87,15 @@ export default function HomePage() {
             </div>
             <div>
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-plum">
-                Now Through October
+                Pumpkin Season Is Over
               </span>
               <h2 className="text-4xl sm:text-5xl font-bold text-forest mt-2 leading-tight">
-                The goats are at{" "}<br className="hidden lg:inline" />the pumpkin patch!
+                The goats have{" "}<br className="hidden lg:inline" />gone home!
               </h2>
               <p className="mt-6 text-lg text-forest-600 leading-relaxed max-w-md">
-                The Goat Tote is set up at The Pumpkin Patch in Centralia for
-                the whole month of October. Pick out your pumpkins, then stop
-                by and say hello to the herd.
+                The Goat Tote spent October at The Pumpkin Patch in Centralia,
+                and the herd is now back home on the farm. Thank you to everyone
+                who stopped by to say hello!
               </p>
               <Link
                 href="/goat-tote"
@@ -103,38 +103,9 @@ export default function HomePage() {
               >
                 See how we built the Goat Tote →
               </Link>
-              <dl className="mt-8 space-y-4 text-base">
-                <div className="flex gap-6">
-                  <dt className="text-plum font-bold text-sm uppercase tracking-wider w-20 shrink-0 pt-0.5">
-                    Where
-                  </dt>
-                  <dd className="text-forest-600">
-                    <a
-                      href="https://www.google.com/maps/search/?api=1&query=518+Goodrich+Rd+Centralia+WA+98531"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-plum transition-colors"
-                    >
-                      <strong className="text-forest">The Pumpkin Patch</strong>
-                      <br />
-                      518 Goodrich Rd, Centralia, WA 98531
-                    </a>
-                  </dd>
-                </div>
-                <div className="flex gap-6">
-                  <dt className="text-plum font-bold text-sm uppercase tracking-wider w-20 shrink-0 pt-0.5">
-                    When
-                  </dt>
-                  <dd className="text-forest-600">
-                    Every day, 10am–6pm
-                    <br />
-                    Through October 31
-                  </dd>
-                </div>
-              </dl>
               <div className="mt-10 max-w-sm">
                 <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-plum">
-                  Goats for Sale at the Patch
+                  Goats for Sale
                 </h3>
                 <ul className="mt-4 divide-y divide-forest-100 border-y border-forest-100">
                   {[
