@@ -71,31 +71,52 @@ export default function HomePage() {
       </section>
 
       {/* ══════════════════════════════════════
-          The Goat Tote — pumpkin patch season wrap-up
+          The Goat Tote — photos and upcoming parades
           ══════════════════════════════════════ */}
       <section id="goat-tote" className="bg-cream scroll-mt-24">
         <div className="mx-auto max-w-6xl px-8 sm:px-12 lg:px-16 py-24">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-              <Image
-                src="/images/farm/goat-tote-pumpkin-patch.jpeg"
-                alt="The Goat Tote, RiverHouse Dairy's goat trailer, set up with goats in a pen at the pumpkin patch"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
+            <div>
+              <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
+                <Image
+                  src="/images/goat-tote/goat-tote-with-pen.jpeg"
+                  alt="The Goat Tote, RiverHouse Dairy's goat trailer, set up with goats in a fenced pen"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+              <div className="mt-4 grid grid-cols-2 gap-4">
+                <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-md">
+                  <Image
+                    src="/images/goat-tote/goats-on-porch.jpeg"
+                    alt="Four young goats resting on the straw-covered porch of the Goat Tote"
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 50vw, 25vw"
+                  />
+                </div>
+                <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-md">
+                  <Image
+                    src="/images/goat-tote/goat-tote-set-up.jpeg"
+                    alt="The Goat Tote set up outdoors with a fenced pen and a shade canopy beside it"
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 50vw, 25vw"
+                  />
+                </div>
+              </div>
             </div>
             <div>
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-plum">
-                Pumpkin Season Is Over
+                Coming Up
               </span>
               <h2 className="text-4xl sm:text-5xl font-bold text-forest mt-2 leading-tight">
-                The goats have{" "}<br className="hidden lg:inline" />gone home!
+                Look for us{" "}<br className="hidden lg:inline" />in the parades!
               </h2>
               <p className="mt-6 text-lg text-forest-600 leading-relaxed max-w-md">
-                The Goat Tote spent October at The Pumpkin Patch in Centralia,
-                and the herd is now back home on the farm. Thank you to everyone
-                who stopped by to say hello!
+                Look for us in the Christmas parade and the tractor parade in
+                Chehalis and Centralia. Give us a wave when you see us!
               </p>
               <Link
                 href="/goat-tote"
