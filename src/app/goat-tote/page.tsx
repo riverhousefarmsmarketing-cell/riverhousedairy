@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "The Goat Tote | RiverHouse Dairy",
   description:
-    "The Goat Tote is RiverHouse Dairy's mobile barn, built on a trailer to bring our goats to events like the pumpkin patch.",
+    "The Goat Tote is RiverHouse Dairy's mobile barn, built on a trailer to bring our goats to parades and community events.",
 };
 
 const buildSteps = [
@@ -57,14 +57,14 @@ export default function GoatTotePage() {
               </h1>
               <p className="mt-6 text-lg text-cream-300 leading-relaxed max-w-md">
                 We built the Goat Tote to be a barn on wheels, so our goats can
-                come along to events like the pumpkin patch and have a
+                come along to parades and community events and have a
                 comfortable home base wherever we set up.
               </p>
             </div>
             <div className="relative aspect-[4/5] max-h-[560px] w-full rounded-xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/goat-tote/goats-on-porch.jpeg"
-                alt="Four young goats resting on the straw-covered porch of the Goat Tote at the pumpkin patch"
+                alt="Four young goats resting on the straw-covered porch of the Goat Tote"
                 fill
                 priority
                 className="object-cover object-top"
@@ -80,8 +80,8 @@ export default function GoatTotePage() {
         <div className="mx-auto max-w-6xl px-8 sm:px-12 lg:px-16 py-24">
           <div className="relative aspect-[4/3] sm:aspect-[16/9] rounded-xl overflow-hidden shadow-lg">
             <Image
-              src="/images/goat-tote/at-the-pumpkin-patch.jpeg"
-              alt="The Goat Tote set up in a pumpkin field with a fenced pen and a shade canopy beside it"
+              src="/images/goat-tote/goat-tote-set-up.jpeg"
+              alt="The Goat Tote set up outdoors with a fenced pen and a shade canopy beside it"
               fill
               className="object-cover"
               sizes="(max-width: 1280px) 100vw, 1150px"
@@ -153,15 +153,14 @@ export default function GoatTotePage() {
         <div className="mx-auto max-w-6xl px-8 sm:px-12 lg:px-16 py-24">
           <div className="max-w-2xl">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-plum">
-              Back Home
+              Coming Up
             </span>
             <h2 className="text-4xl font-bold text-forest mt-2 leading-tight">
-              The goats have gone home
+              Look for us in the parades
             </h2>
             <p className="mt-6 text-lg text-forest-600 leading-relaxed">
-              The Goat Tote spent October at The Pumpkin Patch in Centralia.
-              The season is over and the herd is back home on the farm.
-              Thank you to everyone who came to visit!
+              Look for us in the Christmas parade and the tractor parade in
+              Chehalis and Centralia. Give us a wave when you see us!
             </p>
             <Link
               href="/#goat-tote"
